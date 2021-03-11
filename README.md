@@ -7,7 +7,7 @@ projects. Each of these projects has been identified as having a
 vulnerability which is identified in your assignment.  
 
 The tasks will be assigned as issues assigned to you personally:
-please go to  https://github.com/CS340-19/oss/issues?q=is%3Aopen+assignee%3Ayourghid
+please go to  https://github.com/CS340-21/oss/issues?q=is%3Aopen+assignee%3Ayourghid
 to see issues assigned to you. Pay attention to the due date for the
 corresponding sprint/milestone. That's the date when the assignment is due.
 
