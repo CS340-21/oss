@@ -7,6 +7,11 @@ to determine if they are active include exploring:
 - the number of PRs open and closed
 - the project milestones and releases.
 
+My criteria to determine if they are accepting contributions include exploring:
+- the number of contributors
+- the number of issues open and closed
+- the activity on the issues and author responses
+
 ## Marley (instance 321)
 
 This is a bundle of gaming console emulators for the x86_64 Linux platform, licensed under the GPL-3.0 License. It stands for 
@@ -15,9 +20,13 @@ This is a bundle of gaming console emulators for the x86_64 Linux platform, lice
 It seems to be an active project, with the latest commit on March 14, 2021 as of writing this document. It has 13 open issues, with 8 of them being opened this year
 and 5 in the last week. 4 issues were solved this year. The project doesn't seem to make use of pull requests, milestones, or releases.
 
+It also seems to be accepting contributions, with a couple of contributors and active discussions on the many open and closed issues.
+
 ## Progression (instance 2)
 
 This is a C++ game engine for Linux and Windows, licensed under the MIT License.
 
 It also seems to be active, with the latest commit on February 13, 2021. It only has one contributor who does not make use of issues, pull requests, milestones,
 or releases.
+
+It doesn't seem to be accepting contributions, with only a single contributor and zero issues, pull requests, or discussions.
