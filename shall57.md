@@ -1,0 +1,10 @@
+# Sprint 1
+I have been assigned [instance 182](https://davidalanreid.github.io/output/347538efbdc21b8df684ebd92d37400b3ce85d55/vulnerable.hack.html) and [instance 422](https://davidalanreid.github.io/output/347538efbdc21b8df684ebd92d37400b3ce85d55/vulnerable.hack.html). Firstly, none of the links to instance 182 seem to be working, so I am unable to determine if this project is still active. There are two links associated with instance 422, however, and both of these forked projects do seem to be inactive. In order to determine this, I looked mainly at the commits, issues, pull requests, and number of contributors for each fork. For the commits, issues, and pull requests, I considered their frequency, their number, the interactions with them, and how recent they are.
+
+
+## Instance 422
+For the [first fork](https://github.com/SeanRog/SER401-FALL-19-Project35), all commits were made between April 18 and April 27 in 2020, with multiple commits being made almost daily. There were five contributors at the time. There are neither open nor closed issues, although there were many pull requests made between October 2 2019 and April 27 2020. All of these have been closed now, however, so it looks like this fork is not active. There is nothing else that I can see from the page on Github that would lead me to believe that this fork is still active, especially since all work on the fork seems to have been made within a relatively short amount of time nearly a year ago.
+
+For the [second fork](https://github.com/dsandy12/teammaker), we had all commits made within the same time period as the first fork from the same five contributors as the first fork. This fork also has no issues, open or closed, nor does it have any pull requests. As such, it seems to be fairly similar to the first fork, and it also seems to be inactive.
+
+Both forks for instance 422 seem to have been fairly active roughly one year ago, but they do not seem to be so anymore.
