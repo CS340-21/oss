@@ -8,3 +8,11 @@ The criteria I've used to determine if the two projeccts are still active are as
 - Project milestones and issues
 - Activity from the community, including project releases
 
+## Cros-platform calculator (Instance #580)
+
+This project is a calculator made using the kivy framework in python. It can be installed on mac, windows, android and ios. This project does not appear to be active. This last commit was from over 14 months ago and the last issue was assigned over a year ago.
+
+
+## LZwolf (Instance #282)
+
+This project is a modified game engine from the original Wolfenstein 3D engine, It combines the previous with ZDoom to create the most user and mod author friendly Wolf3D source port. This project also does not appear to be active. The last commit was over 7 months ago and has no issues or milestones.
