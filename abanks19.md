@@ -3,14 +3,11 @@
 I was assigned Libpng and Lighttpd. I looked at the commit history, open/closed pull requests and open/closed issues, and project releases to determine if the project 
 was still in active developement.
 
-### libpng Project (Instance 55)
-Libng is a Portable Network Graphics reference library. It is a platform-independent library that contains C functions for handling PNG images.
+### ProjetKF Project (Instance 55)
+The project's goal was to create a software able to animate a 3D mesh with live recorded facial expressions.
 
-There was one recent commit 5 days ago, but that was a very small change (removing a single space). Other than that, the most recent commits are from 10-11 months 
-ago. That combined with the number of open issues and pull requests leads me to believe that this project is not very active anymore.
+Judging by the fact that there has not been a commit in 11 months and there are no pull requests or issues, I'd say the project is not active.
+### DIR882A1-GPL Project (Instance 1)
+There is no file that acutally describes what this project is. It is just several dozen code files with no comments.
 
-### Lighttpd Project (Instance 1)
-Lighttpd is a light weight web server.
-
-The link to the project brought me to a website rather than a github page, but it appears the last update was seven years ago, leading me to believe the project 
-is not active.
+Every file was commited on January 2nd 2020 by one author along with a single release. It does not seem like this project was ever active, the author seemed to use github to store a personal product that they have no intention of updating.
