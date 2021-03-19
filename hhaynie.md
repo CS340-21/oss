@@ -1,0 +1,3 @@
+I was assigned OOP_indie_studip and ebf_stm32f407_batianhu_emwin_demo. The most recent activity for OOP_indie_studip was 9 months ago. Though the most recent activity isn't too long ago, looking at the activity and commits it seems the project was already written and uploaded all at once. This seems to indicate the project is inactive and brings concern issues may not be accepted.
+ebf_stm32f407_batianhu_emwin_demo, on the other hand, has commits ranging from 3 years ago to 7 months ago. Considering the range in timing of activity on the repository, it is plausible the project is still active. However, much of the repository is in Chinese, which could pose a great issue in understanding.
+Neither of the projects had issues or pull requests indicating project activity.
