@@ -1,5 +1,3 @@
-# Sprint 1
-
 The projects I have discovered are titled [Marley](https://github.com/beaumanvienna/marley) and [Progression](https://github.com/LiamTyler/Progression). My criteria
 to determine if they are active include exploring:
 - the recency of the latest commits and issues
