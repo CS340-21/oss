@@ -17,6 +17,7 @@ The two projects I have been assigned are "MVStudio" (which uses libpng) and
 	- Based on these criteria, I would say that this project is NOT active.
 
 
+
 **Sprint 2**
 
 *MVStudio*
