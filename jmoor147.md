@@ -1,2 +1,2 @@
-Issue #974 seems to be inactive. The most recent modification/contribution was 6 months ago. With much of the contributions being much older than that.
-Issue #19 I believe is still active and looks to be accepting contributions. Most recent contribution was two weeks ago and there is some information about how/what to contribute.
+Issue #974 (pub.mod) seems to be inactive. The most recent modification/contribution was 6 months ago. With much of the contributions being much older than that. Not completely sure what the project is, the readme has very little information. From the given readme it seems they are trying to port something from BlitzMax.
+Issue #19 (1Engine) I believe is still active and looks to be accepting contributions. The most recent contribution was two weeks ago and there is some information about how/what to contribute. This project is a game engine for creating simple 2d games and possibly even 3d games.
