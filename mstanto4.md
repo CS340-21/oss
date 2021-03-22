@@ -10,3 +10,11 @@ This project seems to be an active project. However, this project only has one c
 This project is a high-throughput greybox fuzzer for IoT firmware. FIRM-AFL addresses two fundamental problems in IoT fuzzing. It addresses compatiblity issues by enabling fuzzing for POSIX-compatible firmware that can be emulated in a system emulator. It also addresses the performance bottleneck caused by system-mode emulation with a technique called "augmented process emualtion."
 
 This project does not seem to be active. It has 41 total issues, but only 10 of them are closed. There are 3 pull requests and none of them are closed. This project also only has one contibutor. It is not clear if this project would accept contributions either, since none of the pull requests have been closed. This project also does not have a commit since October 21st, 2020. 
+
+# Sprint 2
+
+### ZenonEngine Project (Instance 464)
+There are three forks on this project, but there are no open or closed pull requests. Since there are no other contributors, it is unclear if this project would accept contributions. I do not think that it would accept contributions, but since there has not been any attempt for outside contributions, there is still a possibility that a contribution would be accepted.
+
+### FirmAFL Project (Instance 5)
+Since this project has three pull requests and none of them are closed, I would think that this project would not accept contributions. This project also does not have a commit since October 21st, 2020. Based on these characteristics of the repository, I would assume that this project would not accept contributions. 
