@@ -16,3 +16,7 @@ This project is a calculator made using the kivy framework in python. It can be 
 ## LZwolf (Instance #282)
 
 This project is a modified game engine from the original Wolfenstein 3D engine, It combines the previous with ZDoom to create the most user and mod author friendly Wolf3D source port. This project also does not appear to be active. The last commit was over 7 months ago and has no issues or milestones.
+
+# Sprint 2
+
+As far as accepting contributions, neither of my two assigned projects appear to be doing so. There are no open discussions, pull requests, or issues for each project and both have not had an update in over half a year.
