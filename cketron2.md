@@ -16,3 +16,12 @@ libraries, though it provides much of the same functionality without any externa
 total commits to the project, with the most recent being from March 10, 2021. There is only one contributor to
 the project, and there is currently one active branch that is ahead of the master branch. This project appears 
 to still be in active development.
+
+# Sprint 2
+
+Based on the information gathered in Sprint 1, I do not believe that the Qt5 Project is accepting new contributions. There have been no commits 
+since Sep. 2020, and no pull requests have been submitted other than depencency updates by bots. 
+
+The Universal Tools project has recent commits and is in active development. Because of this, I believe that Universal Tools is currently
+accepting new contributions. However, since there is only one contributor to this project, it is unclear if they will accept contributions
+made by others.
