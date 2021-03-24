@@ -14,3 +14,17 @@ The last commit to this project was February 11. It only has 3 pull requests, bu
 issues. There are a total of 12 commits, all from a single person, so I assume that person is the only 
 contributor. There is no date for the latest project release. From this information, I have concluded that this is
 and open and active project. 
+
+# Sprint 2
+
+### opencv (instance 1337)
+There are already a total of 1,296 contributors and the last commit was 11 hours ago. There are 79 open pull requests 
+and 11,783 closed pull requests. Between March 16, 2021 and March 23, 2021, there have been 17 active pull requests--12 merged
+pull requests and 5 open. From this information, I would conclude that this project is still accepting contributions. 
+
+### Qt5 (instance 1319)
+There have been 2 open pulls requestes February 23, 2021 – March 23, 2021. In total, there are 5 open pull requests and 
+2 closed pull requests. So far, there appears to be only one contributor. However, I believe there is a chance that 
+this project would still accept contributions, for it seems to only be checked on and altered periodically (I based
+this on the commits/contributors graph found under the insights tab. 
+
