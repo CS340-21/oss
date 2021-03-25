@@ -9,3 +9,5 @@ Amriaa/Blick-and-Sink-Frontend is the repository of a submission to Oxford Digit
 
 2. Issue 966: https://github.com/MokshChoudhary/Drishti
 MokshChoudhary/Drishti has one contributor, no issues, and no pull requests.  The repository was created about a year ago and seems to integrate Microsoft Visual Studio with the opencv library.  The repository was only active the day that it was created and one day about 6 months later. There is very limited documentation. This leads me to believe that the project has been completed or abandoned, is inactive, and not accepting contributions. 
+
+Given the above criteria-- my projects are not accepting contributions and do not have vulnerabilities that need to be patched.
