@@ -1,4 +1,4 @@
-##Sprint1
+# Sprint1
 
 For both assigned projects, I looked at the quantity and dates of forks, commits, comments, pulls, issues(opened/closed), milestones, and any other additions to the project to determine if the project is stil active.
 
@@ -9,7 +9,7 @@ gdregalo/browser-android-tabs - Everything done to for this project was done 12 
 brave/browser-android-tabs - This leads to an error 404, suggesting this person is either no longer attached to the project or is hidden.
 
 
-##Sprint 2
+# Sprint 2
 
 For both assigned projects, I checked to see whether or not a project still accepts contributions
 
