@@ -11,3 +11,7 @@ Judging by the fact that there has not been a commit in 11 months and there are 
 There is no file that acutally describes what this project is. It is just several dozen code files with no comments.
 
 Every file was commited on January 2nd 2020 by one author along with a single release. It does not seem like this project was ever active, the author seemed to use github to store a personal product that they have no intention of updating.
+
+# **Sprint 1**
+
+Using the above criteria, it would appear that neither of the projects are excepting new contributions.
