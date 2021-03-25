@@ -13,3 +13,19 @@ no longer active.
 
 ###Conclusion
 Neither of my projects seem to be active any longer, and I have no idea what one them was meant to do at all because it was in a different language.
+
+-------------
+
+#Sprint 2
+For this sprint, I determined if these projects are still accepting contributions. 
+
+###Instance 558: SuperEver/snb-vision
+Since this project has no issues, milestones, or commits that I could find, I believe that this project is no longer accepting contributions. I also 
+could not find any list of contributors or participants. 
+
+###Instance 476: antoine2000/TDL
+Since this project is entirely in a different language, possibly French, I'm not sure how to get in contact with the contributors because of the 
+language barrier. I also believe that this project was completed because the last commit is from a year ago and is titled "final commit!"
+
+###Conclusion
+I believe that neither of my projects are accepting contributions any longer. 
