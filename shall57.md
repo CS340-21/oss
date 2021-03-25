@@ -10,3 +10,6 @@ For the [first fork](https://github.com/SeanRog/SER401-FALL-19-Project35), all c
 For the [second fork](https://github.com/dsandy12/teammaker), we had all commits made within the same time period as the first fork from the same five contributors as the first fork. This fork also has no issues, open or closed, nor does it have any pull requests. As such, it seems to be fairly similar to the first fork, and it also seems to be inactive.
 
 Both forks for instance 422 seem to have been fairly active roughly one year ago, but they do not seem to be so anymore.
+
+# Sprint 2
+As noted above, both of the projects seem like they have been inactive for nearly a year, so it is unlikely that they would accept a contribution if it were to be added now. Furthermore, while the projects were active, contributions were made by a small number of people, so it does not seem like they were very open to outside help. That is not to say that they would necessarily turn it away, but there does not seem to be a history of them accepting contributions from others. Most of the work was added through commits, rather than with pull requests, which further leads me to believe they were more of a select group working on a project for a short amount of time and would not accept a contribution now. The lack of issues, open or closed, tells a similar story.
