@@ -1,25 +1,25 @@
 # Sprint 1
 For Sprint 1, I was assigned instances 1101 and 869.  
 
-## Instance 1101:  DiligentGraphics/DiligentTools  
-My first vulnerability is for a project called DiligentTools, which is an addon for a graphics engine  
-make for rendering textures and assets. It seems pretty active, since it has commits about once or  
-twice a month. There are multiple issues open, one of which is a bug which was opened eight months  
-ago. It also looks like most of the commits are by one person, so this may not be very open to  
-outside contributions other than those that are already working on the DiligentGraphics project.
+## Instance 1101:   Ultraschall/ultraschall-soundboard    
+My first vulnerability is for a project called Ultraschall-Soundboard (Ultrasonic in English), which is a soundboard   
+that can be used by podcasters, according to the README. It seems fairly active, since the last commit was eight days   
+ago, and there seems to be a few commits every month. It also has eleven open issues right now, one of them to make   
+the README more descriptive, and it has nine closed issues. I think this project is fairly active by these criteria.
   
-## Instance 869:  perezite/o2-pong  
-The second vulnerability is for a project called o2-pong, which is described as a "Proof of concept  
-for creating a game library alongside the actual game itself" and "Pong with a simple c++ game  
-library created alongside."  
-It sounds like they are building a game library for just one game, but it is very vague, since this  
-is the only sentence in their  
-README.md. It seems like this project is a personal project of the owner, since they are the only  
-contributor, and there are no open **or** closed issues on the repository. Because of this,  
-I am going to conclude that this project is very lightly active, but probably not open to outside  
-contributions.
+## Instance 869:   slowrunner/Carl   
+The second vulnerability is for a project called Carl, which is a the code for running a robot named Carl, who has a   
+minion on top of him. This project seems very active, since there were thirteen commits in the last month, and this project   
+has existed since 2018. There are no open issues, but that seems to be more because there is only one contributor than a   
+sign of inactivity, since there are so many comits.
+   
+# Sprint 2   
 
-## Conclusion
-Project 1 seems pretty active, since it has multiple commits in the last month. Project 2, on the  
-other hand does not seem very active since its last commit was 3 months ago. It also does not  
-seem very open to outside contributions, since it only has one contributor, and zero open/closed issues.  
+## Instance 1101:   Ultraschall/ultraschall-soundboard   
+It seems like this project is still accepting pull requests, since the last one was merged on February 16. It seems   
+feasible that they would still accept contributions from a new person.
+
+## Instance 869:   slowrunner/Carl   
+It does not look like this project is accepting pull requests, since the only contributions have been made by one person,   
+and there are currently none open. This person may be open to having contributions, since they are so active, but it is likely   
+that they just want to work on their robot alone. 
