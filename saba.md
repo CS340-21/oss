@@ -16,3 +16,17 @@ This project has 96 total commits, and the most recent commit was only a few day
 However, before this month, there had been no activity on the project in over a year.
 Again there are no pull requests or open issues, and there is only a single contributor.
 Because of all of this, even though there was a very recent string of commits, I would still consider this project inactive. 
+
+
+## Sprint 2
+
+### Orange (Instance 1016)
+I have determined determined that this project is not accepting contributions.
+There is a single forked repo, but there are no open issues or pull requests.
+There has not been any activity in over 1.5 months, and there is only one contributor listed in the commit history.
+
+### Unbiased Weighted Mean Filter (Instance 1257)
+This project is most likely not accepting new contributions. 
+Again there are no active issues or pull requests and only a single contributor in the commit hisotry.
+While there were some recently made commits, the project was left untouched for over a year before this so I cannot say
+with certainty whether a contribution would be accepted, but I am inclined to say "no" for the other reasons.
