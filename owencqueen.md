@@ -35,12 +35,23 @@ This project appears to be accepting contributions. While there are no active pu
 For this sprint, we have been assigned to determine if our assigned vulnerability still exists in each of the instances.
 
 ### Instance 752
+The vulnerability that I was assigned still exists in two files, but it seems to have been resolved in the other files that would normally have the vulnerability. The contributors to the repository seem to have added additional functionality to accomplish the goals sought by `libpng`'s fix to the vulnerability, so I would say the vulnerability has been resolved for two of the files. To determine this, I ran `diff` on the files from the commit that fixed the vulnerability in `libpng` and the corresponding files in `global-engine`. 
 
 ### Instance 300
 The vulnerability for this issue still exits in the main `DEngine-pcsx4` repository. To determine this, I cloned the `DEngine-pcsx4` as well as the `libpng` repository and ran `diff` between the files that were changed on the given commit in `libpng`. After running `diff`, I saw that the issue fixed by the more recent update of `libpng` was still present in `DEngine-pcsx4`.
 
-# Sprint 4
+## Sprint 4
 
 ### Instance 752
+Not sure yet where to put the patch.
 
 ### Instance 300
+Not sure yet where to put the patch.
+
+## Sprint 5
+
+### Instance 752
+I have made a pull request for my contribution at: https://github.com/NoVariableGlobal/global-engine/pull/113.
+
+### Instance 300
+I have made a pull request for my contribution at: https://github.com/pcsx4emudev/DEngine-pcsx4/pull/1. 
