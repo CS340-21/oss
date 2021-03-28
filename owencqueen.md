@@ -31,3 +31,16 @@ As previously stated, this project is not active, so they are also not accepting
 ### Instance 300
 This project appears to be accepting contributions. While there are no active pull requests, the repo manager has also turned off a lot of visibility to the repo, including issues, so if there were open issues/pull requests, I would have no idea. Since this project is active though, and they list instructions to contribute in the README, I would say that they are open to receiving contributions and just haven't seen any submissions lately. 
 
+## Sprint 3
+For this sprint, we have been assigned to determine if our assigned vulnerability still exists in each of the instances.
+
+### Instance 752
+
+### Instance 300
+The vulnerability for this issue still exits in the main `DEngine-pcsx4` repository. To determine this, I cloned the `DEngine-pcsx4` as well as the `libpng` repository and ran `diff` between the files that were changed on the given commit in `libpng`. After running `diff`, I saw that the issue fixed by the more recent update of `libpng` was still present in `DEngine-pcsx4`.
+
+# Sprint 4
+
+### Instance 752
+
+### Instance 300
