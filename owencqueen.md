@@ -43,10 +43,125 @@ The vulnerability for this issue still exits in the main `DEngine-pcsx4` reposit
 ## Sprint 4
 
 ### Instance 752
-Not sure yet where to put the patch.
+Here is the patch from my contribution:
+```
+diff --git a/deps/cegui-dependencies/src/FreeImage-3.15.0/Source/LibPNG/pngrutil.c b/deps/cegui-dependencies/src/FreeImage-3.15.0/Source/LibPNG/pngrutil.c
+index 5429887a..24434e2c 100644
+--- a/deps/cegui-dependencies/src/FreeImage-3.15.0/Source/LibPNG/pngrutil.c
++++ b/deps/cegui-dependencies/src/FreeImage-3.15.0/Source/LibPNG/pngrutil.c
+@@ -144,6 +144,23 @@ png_read_chunk_header(png_structp png_ptr)
+    png_reset_crc(png_ptr);
+    png_calculate_crc(png_ptr, png_ptr->chunk_name, 4);
+
++   //Addition: owencqueen, 03/28/2021
++   /* Check for too-large chunk length */
++   if (png_ptr->chunk_name != png_IDAT)
++   {
++      png_alloc_size_t limit = PNG_SIZE_MAX;
++# ifdef PNG_SET_USER_LIMITS_SUPPORTED
++      if (png_ptr->user_chunk_malloc_max > 0 &&
++          png_ptr->user_chunk_malloc_max < limit)
++         limit = png_ptr->user_chunk_malloc_max;
++# elif PNG_USER_CHUNK_MALLOC_MAX > 0
++      if (PNG_USER_CHUNK_MALLOC_MAX < limit)
++         limit = PNG_USER_CHUNK_MALLOC_MAX;
++# endif  
++      if (length > limit)
++         png_chunk_error(png_ptr, "chunk data is too large");
++   }     
++
+    /* Check to see if chunk name is valid. */
+    png_check_chunk_name(png_ptr, png_ptr->chunk_name);
+
+diff --git a/deps/cegui-dependencies/src/libpng-1.4.7/pngrutil.c b/deps/cegui-dependencies/src/libpng-1.4.7/pngrutil.c
+index 113589c6..29f3b11b 100644
+--- a/deps/cegui-dependencies/src/libpng-1.4.7/pngrutil.c
++++ b/deps/cegui-dependencies/src/libpng-1.4.7/pngrutil.c
+@@ -147,6 +147,23 @@ png_read_chunk_header(png_structp png_ptr)
+    /* Check to see if chunk name is valid. */
+    png_check_chunk_name(png_ptr, png_ptr->chunk_name);
+
++   //Addition: owencqueen, 03/28/2021
++   /* Check for too-large chunk length */
++   if (png_ptr->chunk_name != png_IDAT)
++   {
++      png_alloc_size_t limit = PNG_SIZE_MAX;
++# ifdef PNG_SET_USER_LIMITS_SUPPORTED
++      if (png_ptr->user_chunk_malloc_max > 0 &&
++          png_ptr->user_chunk_malloc_max < limit)
++         limit = png_ptr->user_chunk_malloc_max;
++# elif PNG_USER_CHUNK_MALLOC_MAX > 0
++      if (PNG_USER_CHUNK_MALLOC_MAX < limit)
++         limit = PNG_USER_CHUNK_MALLOC_MAX;
++# endif  
++      if (length > limit)
++         png_chunk_error(png_ptr, "chunk data is too large");
++   }     
++
+ #ifdef PNG_IO_STATE_SUPPORTED
+    /* It is unspecified how many I/O calls will be performed
+     * during the serialization of the chunk data.
+```
+
 
 ### Instance 300
-Not sure yet where to put the patch.
+Here is the patch from my contribution:
+```
+diff --git a/DiligentTools/ThirdParty/lpng-1.6.17/pngpread.c b/DiligentTools/ThirdParty/lpng-1.6.17/pngpread.c
+index 823dcad..dde7a27 100644
+--- a/DiligentTools/ThirdParty/lpng-1.6.17/pngpread.c
++++ b/DiligentTools/ThirdParty/lpng-1.6.17/pngpread.c
+@@ -245,6 +245,21 @@ png_push_read_chunk(png_structrp png_ptr, png_inforp info_ptr)
+       if ((png_ptr->mode & PNG_AFTER_IDAT) != 0)
+          png_benign_error(png_ptr, "Too many IDATs found");
+    }
++   else // FIX ADDED: owencqueen, 03/28/2021
++   {
++     png_alloc_size_t limit = PNG_SIZE_MAX;
++# ifdef PNG_SET_USER_LIMITS_SUPPORTED
++       if (png_ptr->user_chunk_malloc_max > 0 &&
++         png_ptr->user_chunk_malloc_max < limit)
++         limit = png_ptr->user_chunk_malloc_max;
++# elif PNG_USER_CHUNK_MALLOC_MAX > 0
++      if (PNG_USER_CHUNK_MALLOC_MAX < limit)
++           limit = PNG_USER_CHUNK_MALLOC_MAX;
++# endif
++      if (png_ptr->push_length > limit)
++         png_chunk_error(png_ptr, "chunk data is too large");
++   }
++ 
+
+    if (chunk_name == png_IHDR)
+    {
+diff --git a/DiligentTools/ThirdParty/lpng-1.6.17/pngrutil.c b/DiligentTools/ThirdParty/lpng-1.6.17/pngrutil.c
+index 6c5c375..ef912e1 100644
+--- a/DiligentTools/ThirdParty/lpng-1.6.17/pngrutil.c
++++ b/DiligentTools/ThirdParty/lpng-1.6.17/pngrutil.c
+@@ -175,6 +175,23 @@ png_read_chunk_header(png_structrp png_ptr)
+    /* Check to see if chunk name is valid. */
+    png_check_chunk_name(png_ptr, png_ptr->chunk_name);
+
++  //Addition: owencqueen, 03/28/2021
++   /* Check for too-large chunk length */
++   if (png_ptr->chunk_name != png_IDAT)
++   {
++      png_alloc_size_t limit = PNG_SIZE_MAX;
++# ifdef PNG_SET_USER_LIMITS_SUPPORTED
++      if (png_ptr->user_chunk_malloc_max > 0 &&
++          png_ptr->user_chunk_malloc_max < limit)
++         limit = png_ptr->user_chunk_malloc_max;
++# elif PNG_USER_CHUNK_MALLOC_MAX > 0
++      if (PNG_USER_CHUNK_MALLOC_MAX < limit)
++         limit = PNG_USER_CHUNK_MALLOC_MAX;
++# endif
++      if (length > limit)
++         png_chunk_error(png_ptr, "chunk data is too large");
++   }
++
+ #ifdef PNG_IO_STATE_SUPPORTED
+    png_ptr->io_state = PNG_IO_READING | PNG_IO_CHUNK_DATA;
+ #endif
+```
 
 ## Sprint 5
 
@@ -55,3 +170,12 @@ I have made a pull request for my contribution at: https://github.com/NoVariable
 
 ### Instance 300
 I have made a pull request for my contribution at: https://github.com/pcsx4emudev/DEngine-pcsx4/pull/1. 
+
+## Sprint 6
+
+### Instance 752
+I got a response back from the maintainers of the repository. They said that they were not accepting contributions because the repository contained a university project. Therefore, I did not try further to submit this pull request.
+
+### Instance 300
+I have not yet received a response from the owner of the repository.
+
