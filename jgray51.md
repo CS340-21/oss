@@ -10,8 +10,11 @@
       The criteria for wether or not the a project is actively accepting contributions is very similar to the criteria for wether or not the project is still
       active. Since this project has not had a commit in almost a year, it is safe to say that this project is no longer accepting commits. There are also only 8
       commits total and they were all commited by the owner of the repo.
+## The patch has not been added to the project
+      I cross checked the updated file in the Libpng library with the corresponding file in the CxImage project. The lines that were added in the Libpgn version
+      were missing for both the pngpread.c and pngrutil.c files.
 
-# Face Decetion with different Image enhancments
+# Face Decetion with different Image enhancments (FDdIE)
 ## Not Active
   ### Number of participants:
       It looks like three people may be involved, but only one persons has contributed.
@@ -22,3 +25,7 @@
       
 ## Not actively accepting contributions
       Much like the CxImage project, this project only has 5 total commits. The last commit was 8 months ago.
+      
+## The patch has not been added to the project
+      I cross checked the updated file in the Libpng library with the corresponding file in the FDdIE project. The lines that were added in the Libpgn version
+      were missing for both the pngpread.c and pngrutil.c files.
