@@ -34,6 +34,9 @@ It also seems to be accepting contributions, with a couple of contributors and a
 The libpng exploit fix adds new code to `pngpread.c` from lines 226-240 and `pngrutil.c` from lines 184-199. However, this new code is not present in Marley at
 the libpng files under the `dolphin/Externals/libpng` directory. Therefore, the exploit has not been fixed in the project.
 
+### Sprint 4 and 5
+I have raised an issue in the repository ([#86 Update Dolphin libpng library to properly check length of chunks against user limit](https://github.com/beaumanvienna/marley/issues/86)) and created a new pull request with the appropriate changes ([#87 Check length of all chunks except IDAT against user limit](https://github.com/beaumanvienna/marley/pull/87))
+
 
 
 ## Progression (instance 2)
@@ -49,3 +52,6 @@ It doesn't seem to be accepting contributions, with only a single contributor an
 
 ### Sprint 3
 The LZ4 exploit fix adds new code to `lz4.c` at line 1043. However, this new code is not present in Progression at the `ext/lz4/lz4.c` file. Therefore, the exploit has not been fixed in the project.
+
+### Sprint 4 and 5
+I have raised an issue in the repository ([#1 Update LZ4 library to remove heap buffer overflow vulnerability](https://github.com/LiamTyler/Progression/issues/1)) and created a new pull request with the appropriate changes ([#2 Fix off-by-one error in LZ4 to fix overflow vulnerability](https://github.com/LiamTyler/Progression/pull/2)).
