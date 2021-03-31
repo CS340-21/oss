@@ -23,3 +23,15 @@ Lucmichalski/sboost (Instance 1)
 
 This project was last updated via commit on May 12, 2020. It has 17 total commits and 2 contributors named lucmichalski and jqueguiner. Every commit was added to the repo on May 12, 2020. The repo has not been updated since. The commits appear to be merge requests and additions from 3rd parties (tag name). The number of updates appears to be split among the contributors. Since there is more than one contributor to this project but infrequent updates, I would say that this project probably would not be open to new contributors due to a loss of interest on the contributor’s part.  
 
+
+Sprint 3
+
+
+EIGHTFINITE/dolphin (Instance 11)
+
+I believe the vulnerability has been patched in the pngrutil.c file for this project. I determined this by cloning the repo at the given hash (3c27fb0efaddec7821625998d294a7059f80f52f). I then cloned the libpng repo that held the commit that resolved the vulnerability. With these two repos in a directory, I then called vimdiff on both pngrutil.c in the dolphin repo and the pngrutil.c in the libpng repo. I had a difficult time finding where they fixed the vulnerability. This led me to believe that they did not fix it. I, instead, went to the repo on the github website and did a control + f on the dolphin repo in the pongrutil.c file with some of the code from the libpng commit with the fixed vulnerability. This allowed me to find where they added the patch to their code. They did not add it in the same place as the libpng pngrutil.c file did. They also updated the patch to suit their own code which could explain the small differences in code. I attempted the same method with the pngpread.c file (using the vimdiff and the control + f method) but I could not find the resolution to this vulnerability. I could not find keywords in the fixed code in the project code. This leads me to believe that they did not resolve the vulnerability in this file. As far as still being able to exploit the vulnerability, I believe that it is still possible because I cannot find where they address the variables and states in the corrected file in their own file.
+
+Lucmichalski/sboost (Instance 1)
+
+The vulnerability in this project was neglecting a “=” in a conditional statement. The fixed code added the “=”. I used the same method described in the above project to find if the commit, b6a35254d284deb031d90a952dd498b88eed4521, for this repo included the fixed code from the lz4 repo. I went over to the github website and used control + f, I was able to find the code using keywords in the fixed code. I found the conditional statement that the fixed code is referring to but I did not find the “=” that was added in the fixed code. This leads me to believe that the vulnerability still exists in this project. 
+
