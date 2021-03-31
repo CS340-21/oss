@@ -13,3 +13,10 @@ Sprint 2:
 Instance 1246: This repository doesn't seem to be accepting contributions -- there is no documentation, there have only been two contributors, and the project is inactive.
 
 Instance 41: This repository doesn't seem to be accepting contributions given by the fact that a) there is no documentation, b) there is only one contributor, and c) it is a school final project and as such should likely be limited by its group members.
+
+
+Sprint 3:
+
+Instance 1246: This repository's pngpread.c file is clearly missing the additions provided with the referenced commit and, therefore, is still suffering from the same vulnerability. A similar thing could be said about the pngrutil.c file, where certainly the locations of the code changes isn't shared. It follows that the vulnerabilities still existed and the files should be updated.
+
+Instance 41: This repository's pngpread.c file is clearly missing the additions provided with the referenced commit and, therefore, is still suffering from the same vulnerability. A similar thing could be said about the pngrutil.c file. It follows that the vulnerabilities still existed and the files should be updated.
