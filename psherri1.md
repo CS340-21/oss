@@ -20,3 +20,5 @@ This project is a modified game engine from the original Wolfenstein 3D engine, 
 # Sprint 2
 
 As far as accepting contributions, neither of my two assigned projects appear to be doing so. There are no open discussions, pull requests, or issues for each project and both have not had an update in over half a year.
+
+# Sprint 3
