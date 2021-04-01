@@ -26,3 +26,12 @@ Several pull requests have been resolved within the last 8 days, although, most 
 This project has 1113 total contributors. Although there are no open pull requests, there are several closed pull 
 requests resolved within the last month. There are many recent commits that have been made to the repository. Several commits having been made today (03/22/2021). The recent commits have been authored by several different contributors.
 The recency of commits in the repository, the variety of active contributors, and the total number of contributors lead me to believe that this project is still accepting contributors.
+
+# Sprint 3
+### (Instance 1182)
+This repository's pngpread.c file is missing which has the vulnerability. The repository's other vulnerable file, pngrutil.c, is also missing.
+Because the repository does not seem to include the files specified in the vulnerability, I believe the vulnerability does not exist in the repository.
+
+### (Instance 15)
+This repository's pcnet.c file is missing the changes that were specified in the commit. With this being the case, it is clear that the repository still
+contains the vulnerability from the referenced commit for github.com/qemu/qemu. 
