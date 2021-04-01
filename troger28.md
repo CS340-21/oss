@@ -20,7 +20,7 @@ Similarly, based on the fact that this project is no longer active and has a sin
 
 # Sprint 3
 
-Both projects I was assigned utilize libpng, a popular graphics library. It is subject to [CVE-2017-12652] (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12652). This vulnerability was addressed by [commit 347538efbdc21b8df684ebd92d37400b3ce85d55] (https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55).
+Both projects I was assigned utilize libpng, a popular graphics library. It is subject to [CVE-2017-12652](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12652). This vulnerability was addressed by [commit 347538efbdc21b8df684ebd92d37400b3ce85d55](https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55).
 
 ### Instance 611: catmasteryip/kivy_glucosec
 I believe the vulnerablility still exists in this project. I determined this by comparing the pngpread.c and pngrutil.c files from the commit listed above with those in this specific project. The c files in this project were not updated with the corrections, which hints that this project is still vulnerable. 
