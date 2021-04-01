@@ -28,3 +28,17 @@ There have been 2 open pulls requestes February 23, 2021 – March 23, 2021. In 
 this project would still accept contributions, for it seems to only be checked on and altered periodically (I based
 this on the commits/contributors graph found under the insights tab. 
 
+# Sprint 3
+
+### opencv (instance 1337)
+The first thing I did was open the commit where the vulnerabilities in files pngread.c and pngrutil.c were fixed so I could 
+determine what code I needed to look for within the project's files. I then opened the project, followed the path 
+'3rdparty/libpng/pngpread.c and pngrutil.c', and viewed the files. I did not find the specific chunk of code that was referenced 
+in the vulnerability-fix commit in either of the files, leading me to believe that the vulnerability still exists. 
+
+### Qt5 (instance 1319)
+The first thing I did was open the commit where the vulnerabilities in files pngread.c and pngrutil.c were fixed so I could 
+determine what code I needed to look for within the project's files. I then opened the project, followed the paths 
+'qtwebengine/src/3rdparty/chromium/third_party/libpng/pngpread.c and pngrutil.c' and 'qtwebengine/src/3rdparty/chromium/third_party/pdfium/third_party/libpng16/pngpread.c and pngrutil.c', 
+and viewed the files. I did not find the specific chunk of code that was referenced 
+in the vulnerability-fix commit in either of the files from either path, leading me to believe that the vulnerability still exists. 
