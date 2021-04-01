@@ -1,4 +1,4 @@
-Sprint 1
+# Sprint 1
 
 libpng - (Instance 820)
 
@@ -10,7 +10,7 @@ This project is active becuase there was a commit made today. Additionally all o
 
 ---
 
-Sprint 2
+# Sprint 2
 
 libpng - (Instance 820)
 
@@ -19,3 +19,15 @@ After examining this git repo, i came to the conclusion that this project still 
 QEMU - (Instance 8)
 
 This project also appears to accept contributions because the webstie states "QEMU welcomes contributions of code (either fixing bugs or adding new functionality)". However inorder to contribute to this project you have to submit a bug inquiry on their bug report page or submit patches to the website.
+
+---
+
+# Sprint 3
+
+libpng - (Instance 820)
+
+The vulnerability that i identified was the code's inability to determine if a data chuck being processed was too large. This vulnerabilty was fixed by adding pngpread.c and pngutil.c files, which checked the chuch size before processing. I concluded that this vulnerability was fixed in this project
+
+QEMU - (Instance 8)
+
+This project has a buffer overflow bug due to an interger variable being cast as a size_t variable. This bug can be solved simply by changing the type of the variable in question to size_t. This bug exist in pcnet.c and has not been fixed yet on their repo.
