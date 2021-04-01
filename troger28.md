@@ -17,3 +17,13 @@ Considering that this project only has one contributor and does not seem to be c
 
 ### Instance 1391: rognar/webkit-wince-5-6-7-2013-mobile-
 Similarly, based on the fact that this project is no longer active and has a single contributor, I suspect it is not accepting contributions. The lack of pull requests and issues supports this.
+
+# Sprint 3
+
+Both projects I was assigned utilize libpng, a popular graphics library. It is subject to [CVE-2017-12652] (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12652). This vulnerability was addressed by [commit 347538efbdc21b8df684ebd92d37400b3ce85d55] (https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55).
+
+### Instance 611: catmasteryip/kivy_glucosec
+I believe the vulnerablility still exists in this project. I determined this by comparing the pngpread.c and pngrutil.c files from the commit listed above with those in this specific project. The c files in this project were not updated with the corrections, which hints that this project is still vulnerable. 
+
+### Instance 1391: rognar/webkit-wince-5-6-7-2013-mobile-
+After reviewing the pngpread.c and pngrutil.c files in this project, I conclude the vulnerability still exists. These files do not contain the additions/modifications that were included in the libpng commit which fixed the vulnerability. The lack of properly addressing the issues leads me to believe this project remains vulnerable. 
