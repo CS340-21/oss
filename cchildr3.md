@@ -6,3 +6,21 @@ This project is a fork of [this repo](https://github.com/KirkMcDonald/factorio-t
 
 ### Simple Viewer GL (Instance 3)
 This project is a "tiny image viewer" for Unix based on OpenGL. It utilizes the [LZ4](https://github.com/lz4/lz4) library for lossless compression. The only participant is Andrey Ugolnik, who has been mainting this project from 4/4/10 until 2/26/21. Commits usually occur several times a month with seemingly meaningful development updates. There are currently no open pull requests or community activity. There are numerous open issues (all assigned to Andrey, of course) and two main branches (main and development). Using the critera stated initially, I determine that this project is active.
+
+# Sprint 2
+Projects consist of the same instances in Sprint 1. I used the following criteria to determine if the project actively acceps contributions: latest commit, number of contributors, frequency of commits, and if the project is welcoming to new contributors.
+
+### Factorio tools (Lua) (Instance 1105)
+As I determined this project is inactive last week, I can say without a doubt that the project does not accept new contributions. There also wouldn't be a reason for inherting this project, since the author has moved development to a new repo entirely (i.e. contribute to that one). If development had not been moved and this repo was still used, it is likely that it still would not accept contributions for the following reasons: 1. there is only one author with no signs of external issues or pull requests and 2. the commits seemed to come in rapid bursts every 2 or so months so you would have to catch the author in their cycle of development.
+
+### Simple Viewer GL (Instance 3)
+Since this project is active, it is likely that the author is accepting of contributions. Although there have not been any outside issues or pull requests on the repo to date, it is possible that Andrey would merge meaningful changes/additions. I determine this by examing the frequency of commits in the past and the dwindling development in the present. Although this is a long term project maintained by a single developer, it is possible his progress is slowing because of interest or lack of ideas for further improvements. Using this logic and since this repo has commits in the last month or so, I would say the chances of getting a legitimate pull request merged is high.
+
+# Sprint 3
+Still looking at same two projects. I used the information provided for [instance 1105](https://davidalanreid.github.io/output/347538efbdc21b8df684ebd92d37400b3ce85d55/vulnerable.hack.html) and [instance 3](https://davidalanreid.github.io/output/d7cad81093cd805110291f84d64d385557d0ffba/vulnerable.hack.html) to determine if the fix has been implemented in the projects or not. This was done by looking at the project files and comparing the fixed ones.
+
+### Factorio tools (Lua) (Instance 1105)
+The [vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12652) for this project stemmed from the libpng library not properly checking the length of chunks against the users limit. The vulnerability is fixed by modifying two files: pngpread.c and pngrutil.c (found [here](https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55). The first vulnerable file in the project, pngpread, does not contain the proper fix. The second file, pngrutil, also does not contain the proper fix. Therefore, I conclude this project still contains the libpng vulnerability mentioned previously.
+
+### Simple Viewer GL (Instance 3)
+The [vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-17543) for this project stems from the lz4 compression library containing a heap-based buffer overflow which affect certain applications. Thankfully, only a few uncommon usages are at risk, but it's a problem to be addressed (and has!). The fix is in file lz4.c and simply changes a '<' to a '<='. After checking this file in the project source, I have determined that it does not implement the fix and thus currently contains the overvlow mentioned before.

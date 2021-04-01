@@ -16,3 +16,6 @@ There are no issues or milestones, but there is a work-in-progress pull request 
 There are two watchers who seem to be "lurking," 5 stars from a few other lukers, and two forks--one from one of the lurkers and the other from xTVaser--but they are both inactive.
 This lack of recent activity from all who have left a trace on this repository leads me to believe that it is inactive.
 However, a quick look at water111's GitHub profile reveals that this jak-disassembler was likely used in a newer, very active project [here](https://github.com/water111/jak-project).
+
+# Sprint 2
+Both projects seem to have been abandoned, and there never was any GitHub collaboration on wePRO, so it likely they are both not accepting contributions. In addition, contributing to this instance of the jak-disassembler would be a waste of time, as it seems to have been advanced by a lot in its new repository "jak-project" (linked above), where contributions are likely welcome given that there have been 9 contributors in total, but only 3 of them (the project leads, it seems) have made commits in the last month. On this project, the README contains detailed information about the project, its goals, etc., so someone who was interested may be able to contribute.

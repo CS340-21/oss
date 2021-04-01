@@ -8,3 +8,12 @@ There are 8 commits in total made in just one day. It looks like the project has
 These is one contributor for this project with no issues or pull requests. There are no issues or pull requests. 
 The initial repo started 14 months ago and was updated until 10 months ago when it went on a hiatus. 
 The project seems to be inactive as well after their 7 month activity. 
+
+# Sprint 2
+## Project 918: openwebrtc-m75
+Based on the conclusions from Sprint 1, Project 918 looks to not be accepting contributions. 
+The repo does have an AUTHOR directory where they provided names and emails of contributors. 
+It can be assumed that at one point in time, the repo was accepting contributions. 
+## Project 4: vtf-xen
+Project 4 also seems to be not accepting contributions on this github repo. There has been strictly one contributor for the 
+entire duration of the project. The README does provide adequate information for where one would get started on working with xen. 

@@ -9,3 +9,11 @@ The most recent activity on this project was in April 2020, which like with the 
 
 ### Conclusions
 The activity histories of each of these OSS projects imply that neither is currently active. The few commits and single contributor per project makes me think that they could be brief personal projects that were fairly smoothly completed (or poorly documented). Another explanation that comes to mind is that these projects were completed prior to their addition on GitHub, and the users uploaded them to GitHub later in order to document their work. Regardless of whether these things are right about the projects, I believe instances 611 and 1391 are no longer active.
+
+# Sprint 2
+
+### Instance 611: catmasteryip/kivy_glucose
+Considering that this project only has one contributor and does not seem to be currently active, I believe it is not accepting contributions. Furthermore, there are no pull requests, issues, or a README file. 
+
+### Instance 1391: rognar/webkit-wince-5-6-7-2013-mobile-
+Similarly, based on the fact that this project is no longer active and has a single contributor, I suspect it is not accepting contributions. The lack of pull requests and issues supports this.
