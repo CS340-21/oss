@@ -8,3 +8,6 @@ This is a client created that contains the TEE library for Linux.  There has not
 
 Sprint 2
 Judging based on the criteria above, it is safe to assume that both projects are not accepting contributions.  In addition, the first project seemed to be specifically for ASU students, and the second appeared to be all created by one person, so it's likely that they weren't accepting contributions even when they were active.
+
+Sprint 3
+The first project's vulnerability has not been fixed.  The vulnerability in Libpng was fixed within the last few months, about 10 months later than the most recent update to the project.  The second project's vulnerability is also out of date.  QEMU's most recent vulnerability fix was about two months ago, roughly a year since the last update to the project.
