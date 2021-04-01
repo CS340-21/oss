@@ -12,6 +12,10 @@ There is no file that acutally describes what this project is. It is just severa
 
 Every file was commited on January 2nd 2020 by one author along with a single release. It does not seem like this project was ever active, the author seemed to use github to store a personal product that they have no intention of updating.
 
-# **Sprint 1**
+# **Sprint 2**
 
 Using the above criteria, it would appear that neither of the projects are excepting new contributions.
+
+# **Sprint 3**
+
+I appears that both projects have not fixed their vulnerability. I have determined this by looking at the committ that repaired the vulnerablility in libpng and lightpad and comparing it against the most recent committ for both projects. Both are running older versions of the code with the vulnerabilities still intact.
