@@ -13,3 +13,6 @@ Both forks for instance 422 seem to have been fairly active roughly one year ago
 
 # Sprint 2
 In order to determine if the projects are still accepting contributions, I used similar criteria to what I looked for above. I also tried to look more at the contributors' interactions with commits, pull requests, and issues, in order to judge their openness to new contributions. As noted above, both of the projects seem like they have been inactive for nearly a year, so it is unlikely that they would accept a contribution if it were to be added now. Furthermore, while the projects were active, contributions were made by a small number of people, so it does not seem like they were very open to outside help. That is not to say that they would necessarily turn it away, but there does not seem to be a history of them accepting contributions from others. Most of the work was added through commits, rather than with pull requests, which further leads me to believe they were more of a select group working on a project for a short amount of time and would not accept a contribution now. The lack of issues, open or closed, tells a similar story.
+
+# Sprint 3
+Determine if the vulnerability still exists (the file in question has not been changed or, if changed, can it still be exploited). Please note the method you have used and the findings.
