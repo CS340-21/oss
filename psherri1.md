@@ -19,7 +19,7 @@ This project is a calculator made using the kivy framework in python. It can be 
 As far as accepting contributions, this project does not appear to be doing so. There are no open discussions, pull requests, or issues fo has not had any updates for over half a year
 
 ## Sprint 3
-
+When determining the vulnerability of the project, I compared files across the library repo and the project repo to see if the library code is present in the project than the exploit has not been fixed. I primarily looked at the pngread.c and pngutil.c files. The code mentioned in the libpng files is not present in the project so therefore it is vulnerable.
 
 
 # LZwolf (Instance #282)
@@ -31,3 +31,4 @@ This project is a modified game engine from the original Wolfenstein 3D engine, 
 Just like the aforementioned project, this project is not accepting any contribution through using the same criteria.
 
 ## Sprint 3
+Same criteria was used as the previous project to determine if vulerability exists in the project. The code in pngread.c and pngutil.c is not in the prject's source code. It is vulnerable as well
