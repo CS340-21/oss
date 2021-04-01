@@ -9,3 +9,13 @@ The latest changes to the code took place 14 months ago. There seem to be no act
 ### ImageViewer (258)
 
 This latest changes for this project took place in January. There are no current pull requests but the most recent release was in December 2020. This project seems to be active in development.
+
+## Sprint 2
+
+### Driver-Drowsiness-Detector
+
+I have determined this project is not accepting contributions since there have been zero pull requests and only one contributor. It is also no longer active.
+
+### ImageViewer
+
+I don't believe this project is accepting contributions since there have not been any issues or pull requests. There is also only one contributor, but it is in active development.
