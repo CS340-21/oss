@@ -11,3 +11,9 @@ Sprint 2:
 86u-merlin does not seem to be open to contributions. All 21 commits are from the same person.
 
 DIR882A1-GPL also isn't open to contributions. All commits were on the same day and by the same person.
+
+Sprint 3:
+
+The vulnerability exists in pngread.c and pngrutil.c and was fixed in 2017. 86u-merlin uses a version of pngread.c from 2010, so the vulnerability does still exist in this program.
+
+The vulnerability exists in http_auth.c and mod-auth.t. Upon inspecting these files in DIR882A1-GPL, they don't contain the fixes that were pushed to Lighttpd in 2011, so the vulnerability still exists.
