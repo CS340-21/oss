@@ -25,3 +25,17 @@ This project only has commits from the owner of the repository, there are no oth
 ## qemu (instance 6)
 
 This project has no commits or contributors listed in the repository, but it has a file claming that it is currently accepting contributions as well as a  google groups where there seem to be many active people sending in contributions (there have been 3 contributions submitted for review in the past week). Based on this criteria, I believe this project is accepting contributions.
+
+# Sprint 3
+
+## Criteria
+
+I looked at the files where the vulnerability was reported to exist, as well as the reference commit that fixed the vulnerability and checked to see if my assigned repos' files had the fix in their files, if they don't, the vulnerability still exists in their project.
+
+## libpng (instance 398)
+
+This vulnerability involves the failure of the code to check if the data chunk size being processed is too large, this can cause issues if the data being operated on is too big. The vulnerability was fixed by adding code to check the chunk size in the pngpread.c and pngutil.c files. These files are replicated multiple times in my assigned project's repository, and none of these files have the fix. Due to this, I conclude that the vulnerbaility still exists in the project.
+
+## qemu (instance 6)
+
+The vulnerability involves a potential buffer overflow due to an int variable being casted to a size_t variable, the fix simply involves changing the int size variable to type size_t. The file in question, pcnet.c, does exist in my instance's repo and does not include the fix, their version of the file still has the size varibale as type int, and thus still has the buffer overflow vulnerability.
