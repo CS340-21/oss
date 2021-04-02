@@ -23,3 +23,15 @@ belive this project is not currently accepting contributions.
 ### Instance 4
 I also determined this project to be inactive based on the commit history and lack of issues and pull requests. There is also only one contributor, so 
 I believe this project is not accepting any new contributions as well.
+
+# Sprint 3
+
+Criteria used was comparing the vulnerability fixes in libpng and lighttpd with the files in the assigned repos.
+
+## Instance 921
+The vulnerability fix seems to be absent in pngread.c, however, the fix exists (although it is altered) in pngrutil.c. This leads me to belive these
+vulnerabilities are still exploitable in this instance.
+
+## Instance 4
+The out of bounds read vulnerability in this instance is not fixed. There is no cast to an unsigned char in the same place as the fixed library. This
+vulnerability is still exploitable.
