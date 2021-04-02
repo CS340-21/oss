@@ -13,3 +13,11 @@ commit was August 20, 2020 which may suggest that this project isn't maintained/
 This repository contains a bunch of mini programs for the user to practice. It seems the folders contain labs from a school
 or course as well as debugging tools. There have been 2 commits, so I'm assuming the user just uploaded her work after she was 
 done with them.
+
+# Sprint 2
+
+# Sprint 3
+
+# Sprint 4
+# Sprint 5
+# Sprint 6
