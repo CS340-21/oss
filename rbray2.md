@@ -27,7 +27,7 @@ that they just want to work on their robot alone.
 # Sprint 3
 
 ## Instance 1101:   Ultraschall/ultraschall-soundboard 
-Since the vulnerability was in pngread.c and pngrutil.c, I checked to see the last time that these were committed in the project. Since the vulnerability was fixed in 2017, this patch would need to have been after. The last commit to both pngread.c and pngrutil.c was on January 6, 2021. Upon further digging, it seems like the changes from the fixed commit to libpng  so it is reasonable to conclude that the vulnerability no longer exists in this project. 
+Since the vulnerability was in pngread.c and pngrutil.c, I checked to see the last time that these were committed in the project. Since the vulnerability was fixed in 2017, this patch would need to have been after. The last commit to both pngread.c and pngrutil.c was on January 6, 2021, so it is reasonable to conclude that the vulnerability no longer exists in this project. Even though the exact change cannot be found in the code, it has been many years since this vulnerability has been resolved, and libpng is a very active project, so it seems reasonable that the code would have changed since then.
 
 ## Instance 869:   slowrunner/Carl  
 In this project, I was going to use the same method for checking if the vulnerability still exists. When I searched for the path to these files, though, it appeared that the path no longer exists. It seems like this program is no longer using libpng, so it is safe to conclude that the vulnerability no longer exists in this project, either.
