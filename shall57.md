@@ -1,6 +1,8 @@
 # Open Source Project Assignment
 
 ## Sprint 1
+Please describe criteria you have used to determine if your OSS projects are still active. Please consider lecture or any other sources.
+
 I have been assigned [instance 182](https://davidalanreid.github.io/output/347538efbdc21b8df684ebd92d37400b3ce85d55/vulnerable.hack.html) and [instance 422](https://davidalanreid.github.io/output/347538efbdc21b8df684ebd92d37400b3ce85d55/vulnerable.hack.html). Firstly, none of the links to instance 182 seem to be working, so I am unable to determine if this project is still active. So, I will instead consider [instance 183](https://davidalanreid.github.io/output/347538efbdc21b8df684ebd92d37400b3ce85d55/vulnerable.hack.html). There is a single link associated with instance 183, and this project does seem to be inactive. There are two links associated with instance 422, and both of these forked projects also seem to be inactive. In order to determine this, I looked mainly at the commits, issues, pull requests, and number of contributors for each fork. For the commits, issues, and pull requests, I considered their frequency, their number, the interactions with them, and how recent they are.
 
 ### Instance 183
@@ -14,7 +16,15 @@ For the [second fork](https://github.com/dsandy12/teammaker), we had all commits
 Both forks for instance 422 seem to have been fairly active roughly one year ago, but they do not seem to be so anymore.
 
 ## Sprint 2
+Determine if the projects still accept contributions, note the criteria you have used.
+
 In order to determine if the projects are still accepting contributions, I used similar criteria to what I looked for above. I also tried to look more at the contributors' interactions with commits, pull requests, and issues, in order to judge their openness to new contributions. As noted above, both of the projects seem like they have been inactive for nearly a year, so it is unlikely that they would accept a contribution if it were to be added now. Furthermore, while the projects were active, contributions were made by a small number of people, so it does not seem like they were very open to outside help. That is not to say that they would necessarily turn it away, but there does not seem to be a history of them accepting contributions from others. Most of the work was added through commits, rather than with pull requests, which further leads me to believe they were more of a select group working on a project for a short amount of time and would not accept a contribution now. The lack of issues, open or closed, tells a similar story.
 
 ## Sprint 3
 Determine if the vulnerability still exists (the file in question has not been changed or, if changed, can it still be exploited). Please note the method you have used and the findings.
+
+### Instance 183
+This project is a branch from libpng, and the vulnerability that was originally in libpng seems to still exist in this project. Specifically, the section of code that was added to pngpread.c within libpng to fix the vulnerability does not seem to exist within this instance. In order to determine this, I compared the version of pngpread.c within the instance to the fixed version of pngpread.c within libpng. The other file that was changed for libpng, namely pngrutil.c, does not seem to exist within this instace, so that vulnerability might no longer be a problem.
+
+### Instance 422
+Similarly, the first project for instance 422 is also a branch of libpng, and the vulnerability that was originally in libpng seems to still exist in this project. This is due to the same reasons as the above.
