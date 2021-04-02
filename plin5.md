@@ -17,3 +17,11 @@ It can be assumed that at one point in time, the repo was accepting contribution
 ## Project 4: vtf-xen
 Project 4 also seems to be not accepting contributions on this github repo. There has been strictly one contributor for the 
 entire duration of the project. The README does provide adequate information for where one would get started on working with xen. 
+
+# Sprint 3
+## Project 918: openwebrtc-m75
+A complete project seemed to be committed to the repo at once, but never touched again. No issues or pull requests were made. 
+No vulnerabilities were found. 
+## Project 4: vtf-xen
+This project once contained a shared variable that was problematic. It was removed, so the vulnerability is gone. 
+Upon reviewing the various patch files, no other vulnerabilities seem to be present. 
