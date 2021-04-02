@@ -17,3 +17,12 @@ This project has not had a successful commit in the last 12 months. Also there a
 
 QEMU (Instance 1)
 This project has no active issues or pull requests and the most recent commit was 13 months ago. From this I have concluded that this project is likely not accepting any new commits at this time.
+
+
+SPRINT 3:
+
+Libpng (Instance 1211)
+To check if this vulnerability still exists I checked the commit that fixed the LibPNG vulnerability and compared it to the files that contained the vulnerability. These two files were pngrutil.c and pngpread.c. Both of the files in the instance I was tasked with do not contain the code that was added to fix the vulnerability. Based on this I have concluded that the vulnerability still exists in the project. 
+
+QEMU (Instance 1)
+To check if this vulnerability still exists I checked the commit that fixed the QEMU vulnerability and compared it to the file that contained the vulnerability. The file that contained the vulnerability was pcnet.c. The file in the instance I was tasked with does not contain the code that fixed the vulnerability. Based on this I have concluded that the vulnerability still exists in the project. 
