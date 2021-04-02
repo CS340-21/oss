@@ -5,3 +5,9 @@ Neither of the projects had issues or pull requests indicating project activity.
 
 ### Sprint 2:
 To find out if the assigned projects are still accepting contributions the times of contibution, the amount of contribution, and number of contrigutors were observed. For OOP_indie_studip, the most recent contributions were made 9 months ago. The contributions were made by a single contributor during a single week. It also appears by the amount of lines that were contributed that the code may have been mostly pre-written, then uploaded to github. This inicates that the project will most likely not accept additional contributions. As for ebf_stm32f407_batianhu_emwin_demo, three different people have made contributions to the project. There seems to have been one initial commit where all the code was written or uploaded several years ago, and several smaller changes and uploads every so often since. Since small changes have been made over time, it is plausible that contributions may be accepted. As an additional note, pull requests and submitted issues would have been taken into account as part of determining the activity of the project, however, there was no information of this type for either project.
+
+### Sprint 3:
+When looking at the OOP_indie_studip repository, it can be seen that the vulnerability has not been fixed. This can be seen by comparing
+libpng with the corrected vulnerability to libpng of OOP_indie_studip.
+
+When looking at ebf_stm32f407_batianhu_emwin_demo, there are many paths that are listed for libpng. Looking through the different paths and comparing pngpread.c and pngrutil.c to the corrected libpng files, it became clear that the files used in the github repository aren't even the same files. There is overlap with some of the function and variable names; however, the majority of the files are completely different.
