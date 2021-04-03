@@ -1,4 +1,4 @@
-1#Sprint 1
+1# Sprint 1
 
 I have been assigned instance 953 and instance 14. The criteria I used include the following to determine if the projects are still active: the number of participants, the frequency of the commits and issues, and the amount of discussion.
 
