@@ -24,3 +24,7 @@ This project *definitely* does not accept contributions anymore; the entire repo
 This project *may* accept contributions. There haven't been any pull requests to the repository, so it's hard to know for sure. The user who owns the project is active on GitHub as of March 23rd 2021, so it's likely they would see the pull request.
 
 It's impossible to know for *sure*, but I will assume they would accept contributions.
+
+# Sprint 3
+
+Instance 313 does not have the vulnerability because it no longer exists, but instance 243 still definitely has the vulnerability. The files `PHOENIXEngine/PHOENIX/PX2Engine/Unity/ImageLibs/PNG/pngpread.c` and `PHOENIXEngine/PHOENIX/PX2Engine/Unity/ImageLibs/PNG/pngrutil.c` contain extremely similar code from the libpng repository, but they do not contain the added code or any comments added in the changes from [the patch commit](https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55).
