@@ -17,3 +17,13 @@ The project does appear to still accept contributions. According to the recent c
 
 ## QEMU (Instance 14)
 The project does appear to still accept contributions. However, according to the website, the instance is a read-only project and to actually contribute, you must submit a bug inquiry on their official bug report page or submit patches to the website. According to the recent commit history, there were 0 commits in the last month, but since the website does specify that "QEMU welcomes contributions of code (either fixing bugs or adding new functionality)," the project does accept to accept contributions.
+
+# Sprint 3
+
+In order to determine if the vulnerability still exists, I checked how the vulnerability was fixed and look to see if the code is included in my instances. If they were included, I checked to see if the vulnerability was completely solved by looking in the issues/pull requests.
+
+## libpng(Instance 953)
+The vulnerability still exists. The code to fix the vulnerability is not included in either files. Furthermore, the vulnerability fix was committed on August 2017, while my instance files' last commits were on February 2017. 
+
+## QEMU (Instance 14)
+The vulnerability still exists. The vulnerability fix was to change one of the int variables to a size_t, and according to the instance file, it is still an int. 
