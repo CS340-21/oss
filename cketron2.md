@@ -35,3 +35,10 @@ By comparing the changes made in the [referenced commit](https://github.com/glen
 
 #### _Universal Tools Project (Instance 457)_
 By comparing the changes made in the [referenced commit](https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55) with the contents of the `/contrib/fltk/png/pngpread.c` and `/contrib/fltk/png/pngrutil.c` files in this project, I determined that the files have not been updated with the necessary modifications, and the vulnerability still exists. Each file should be modified to reflect the changes made in the referenced commit.
+
+## Sprint 4 - Produce a patch for the vulnerability
+
+To produce a patch for each vulnerability, I forked each project and edited the files referenced in Sprint 3 above. I encountered no issues in doing this, 
+and I will be submitting a PR for each. My forks containing the patches for the vulnerabilities of each project are linked below.
+* [Qt5 - patched](https://github.com/rossketron/qt5)
+* [Universal Tools - patched](https://github.com/rossketron/universal_tools)
