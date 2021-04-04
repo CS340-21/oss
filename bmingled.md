@@ -47,3 +47,10 @@ The two projects I have been assigned are "MVStudio" (which uses libpng) and
 - I looked at the commit that fixed the QEMU vulnerability and compared it to the 'qemu' project's file that supposedly contains the vulnerability. 
 - After comparing the lines that were changed to fix the vulnerability, I can confirm that the project DOES still have the vulnerability. 
 - The file containing the vulnerability has not been changed since it was fixed in the main QEMU repository.
+
+
+**Sprint 4**
+
+I decided to produce patches for both of my assigned repositories despite them both seeming to not accept contributions currently. 
+I did this just as an experiment to see what would happen. To produce the patch, I corrected the two files '3rd_party/png/pngpread.c' and '3rd_party/png/pngrutil.c' in the MVStudio repository and the 'hw/net/pcnet.c' file in the qemu repository, all of which contained vulnerabilities for their respective piece of OSS. 
+It was not a difficult patch as it only required changing ~20 lines of code. I did not run into any issues. I will produce pull requests for Sprint 5.
