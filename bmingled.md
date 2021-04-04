@@ -71,12 +71,14 @@ https://github.com/OneContainers/qemu/pull/1
 **Sprint 6**
 
 *MVStudio*
+
 In a surprising turn of events, my contribution to MVStudio DID get accepted! 
 The creator of the utility told me thank you for fixing the vulnerability, and that he would update the libpng library to the latest version. 
 There were no issues and no further correspondence was needed to get the patch accepted.
 
 
 *qemu*
+
 Unfortunately, I never received any feedback from the owner of this repository. 
 I may send a follow-up message at some point, but chances are that the owner either no longer makes use of this repository, no longer uses their Github account, or something similar, and will not probably respond. 
 I will post an update here if something changes.
