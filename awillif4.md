@@ -9,7 +9,7 @@ This project handles PNG file processing. I determined that this project was not
 This project does not seem to be accepting contributions, based on the fact that there is no documentation and only 3 contributors.
 
 # SP 3
-I conpared the files from the fix commit in libpng to the files in this project. It was incredibly difficult to say since the two utilities are written very differently, but I do not think this project accounts for user input length anywhere. So I think the vulnerability still exists.
+I conpared the files from the fix commit in libpng to the files in this project. This project contains 22 identical sets of files pngpread.c and pngrutil.c, but the files are very different from the libpng's files. Given how different these files are I am unable to determine if the vulnerability still exists.
 
 ### Progression Project (Instance 4)
 # SP 1
