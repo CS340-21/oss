@@ -54,3 +54,32 @@ The two projects I have been assigned are "MVStudio" (which uses libpng) and
 I decided to produce patches for both of my assigned repositories despite them both seeming to not accept contributions currently. 
 I did this just as an experiment to see what would happen. To produce the patch, I corrected the two files '3rd_party/png/pngpread.c' and '3rd_party/png/pngrutil.c' in the MVStudio repository and the 'hw/net/pcnet.c' file in the qemu repository, all of which contained vulnerabilities for their respective piece of OSS. 
 It was not a difficult patch as it only required changing ~20 lines of code. I did not run into any issues. I will produce pull requests for Sprint 5.
+
+
+**Sprint 5**
+
+The following are links to the pull requests I created for the patches produced.
+
+MVStudio
+https://github.com/LiangliangNan/MVStudio/pull/11
+
+qemu
+https://github.com/OneContainers/qemu/pull/1
+
+
+
+**Sprint 6**
+
+*MVStudio*
+In a surprising turn of events, my contribution to MVStudio DID get accepted! 
+The creator of the utility told me thank you for fixing the vulnerability, and that he would update the libpng library to the latest version. 
+There were no issues and no further correspondence was needed to get the patch accepted.
+
+
+*qemu*
+Unfortunately, I never received any feedback from the owner of this repository. 
+I may send a follow-up message at some point, but chances are that the owner either no longer makes use of this repository, no longer uses their Github account, or something similar, and will not probably respond. 
+I will post an update here if something changes.
+
+
+
