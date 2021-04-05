@@ -21,3 +21,13 @@ This one seems active. There are issues that have been closed as recently as in 
 ### Try/Tempest
 
 This one also seems active and accepting contributions. There are both pull requests and issues merged and closed within the past few months.
+
+## Sprint 3
+
+### DISTRHO/DISTRHO-Ports
+
+This one I believe still has the vulnerability, buecause pngread.c does not contain the code that fixed the vulnerability
+
+### Try/Tempest
+
+This one looks like it still has the vulnerability, also because pngread.c does not contain the updated code from the the commit that fixed the vulnerability.
