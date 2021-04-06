@@ -40,8 +40,8 @@ Sprint 4
 
 I provided patches for the vulnerabilities described in sprint 3. By patching it, I took the code that fixed the vulnerability and added it to their code in a forked repo in my account. There were no issues experienced. The fixed code was easy to add and it didn’t appear to interfere with any of the features in the original code. I will make pull requests in the next sprint (sprint 5). Below are the links to the patched files in my forked repository for each repo. 
 
-Patched pngread.c for dolphin: https://github.com/gstrick2/dolphin/blob/master/Externals/libpng/pngpread.c 
+Patched pngread.c for dolphin repo: https://github.com/gstrick2/dolphin/blob/master/Externals/libpng/pngpread.c 
 
-Forked patched for lz4.c for sboost:
+Patched lz4.c for sboost repo:
 https://github.com/gstrick2/sboost/blob/master/3rdparty/manticore/manticoresearch/src/lz4/lz4.c 
 
