@@ -19,5 +19,14 @@
     Instance 713 appears to be using a version of libpng from 2007 -- the vulernability still exists and the 
     files in question are vastly different. I simply compared the files to determin this. 
     
-    Instance 1325 stilol contains the vulnerability and will simply require a few copy/pastes to patch it. 
+    Instance 1325 still contains the vulnerability and will simply require a few copy/pastes to patch it. 
     Again, I simply compared the files with a diff.
+
+# Sprint 4
+
+    I produced a patch for 1325. It's found in [this](https://github.com/Pokemonpower92/Attendance_via_face_Recognition) repo.
+    
+    Instance 713 seems like a lost cause because it relies on a depreciated version of libpng  
+    and the rest of the files wopuld require extensive changes to patch. 
+    
+    
