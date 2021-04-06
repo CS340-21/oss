@@ -18,3 +18,13 @@ JKolodziejczak/povray-polar - I could not find the owner's email to contact them
 gdregalo/browser-android-tabs - Using the method found on https://stackoverflow.com/questions/12686545/how-to-leave-a-message-for-a-github-com-user, I was able to find the email addressess of several of the contributers, with exception to the owner of the project. So far, no response on whether or not it is still accepting contributions so the answer is probably no.
 
 brave/browser-android-tabs - This leads to an error 404, suggesting this person is either no longer attached to the project or is hidden.
+
+# Sprint 3
+
+For both assigned projects, I checked to see whether or not a project contains vulnerabilites in 2 files: pngpread.c and pngrutil.c
+
+JKolodziejczak/povray-polar - By copying and pasting their files and comparing it to the fixed version, the two files have not been updated and still contain the vulenerabilities.
+
+gdregalo/browser-android-tabs - By copying and pasting their files and comparing it to the fixed version, the two files have not been updated and still contain the vulenerabilities.
+
+brave/browser-android-tabs - This leads to an error 404, suggesting this person is either no longer attached to the project or is hidden.
