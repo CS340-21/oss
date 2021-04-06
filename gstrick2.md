@@ -35,3 +35,13 @@ Lucmichalski/sboost (Instance 1)
 
 The vulnerability in this project was neglecting a “=” in a conditional statement. The fixed code added the “=”. I used the same method described in the above project to find if the commit, b6a35254d284deb031d90a952dd498b88eed4521, for this repo included the fixed code from the lz4 repo. I went over to the github website and used control + f, I was able to find the code using keywords in the fixed code. I found the conditional statement that the fixed code is referring to but I did not find the “=” that was added in the fixed code. This leads me to believe that the vulnerability still exists in this project. 
 
+
+Sprint 4
+
+I provided patches for the vulnerabilities described in sprint 3. By patching it, I took the code that fixed the vulnerability and added it to their code in a forked repo in my account. There were no issues experienced. The fixed code was easy to add and it didn’t appear to interfere with any of the features in the original code. I will make pull requests in the next sprint (sprint 5). Below are the links to the patched files in my forked repository for each repo. 
+
+Patched pngread.c for dolphin: https://github.com/gstrick2/dolphin/blob/master/Externals/libpng/pngpread.c 
+
+Forked patched for lz4.c for sboost:
+https://github.com/gstrick2/sboost/blob/master/3rdparty/manticore/manticoresearch/src/lz4/lz4.c 
+
