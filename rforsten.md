@@ -17,3 +17,15 @@ It does not seem like this project is really accepting contributions from anyone
 
 xiangshouding/gyp  
 Similar to the other project, this one does not seem to be accepting contributions either. Beyond the fact that the project does seem to be active still in general, it has only had 2 contributors in its lifetime. The project does have 5 forks, but after checking each of these as well, none of them have been changed in 4 to 6 years. 
+
+
+Milestone 3:
+For determining whether or not the vulnerability still exists, I have cross referenced the commit that fixed the vulnerability in the libpng library with the source code of the two projects. The commit to fix the vulnerability altered two files in the library: pngpread.c and pngrutil.c.
+
+RafaleSoft/Raptor  
+File locations: Raptor/AddOns/libpng-1.6.36/source/pngpread.c and pngrutil.c  
+Neither of the two files have the necessary updated code to fix the vulnerability. 
+
+xiangshouding/gyp  
+File locations: gyp/third-party/libpng/pngpread.c and pngrutil.c 
+Neither of the two files have the necessary updated code to fix the vulnerability. 
