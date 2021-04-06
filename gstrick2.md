@@ -38,10 +38,16 @@ The vulnerability in this project was neglecting a “=” in a conditional stat
 
 Sprint 4:
 
-I provided patches for the vulnerabilities described in sprint 3. By patching it, I took the code that fixed the vulnerability and added it to their code in a forked repo in my account. There were no issues experienced. The fixed code was easy to add and it didn’t appear to interfere with any of the features in the original code. I will make pull requests in the next sprint (sprint 5). Below are the links to the patched files in my forked repository for each repo. 
+I provided patches for the vulnerabilities described in sprint 3. By patching it, I took the code that fixed the vulnerability and added it to their code in a forked repo in my account. There were no issues experienced. The fixed code was easy to add and it didn’t appear to interfere with any of the features in the original code. I will make pull requests in the next sprint (sprint 5). Below are the links to the code that fixed the vulnerabilities and the patched files in my forked repositories for each repo (where fixed code is implemented). 
 
-Patched pngread.c for dolphin repo: https://github.com/gstrick2/dolphin/blob/master/Externals/libpng/pngpread.c 
+Code that fixed vulnerability (pngpread.c): https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55 
 
-Patched lz4.c for sboost repo:
+Code that fixed vulnerability (lz4.c):
+https://github.com/lz4/lz4/commit/d7cad81093cd805110291f84d64d385557d0ffba
+
+
+My patched pngread.c for forked dolphin repo: https://github.com/gstrick2/dolphin/blob/master/Externals/libpng/pngpread.c 
+
+My patched lz4.c for forked sboost repo:
 https://github.com/gstrick2/sboost/blob/master/3rdparty/manticore/manticoresearch/src/lz4/lz4.c 
 
