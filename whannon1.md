@@ -15,4 +15,20 @@ This appears to me to be a kind of "one-and-done" project, of which there is no 
 ### asuswrt_qca9563_yoru :
 Again, the GitHub link for this project is dead. It is incapable of accepting further contributions.
 
+# Sprint 3
+### l4re-snapshot :
+The two files I have been assigned to look at are src/l4/pkg/libpng/lib/contrib/pngpread.c and src/l4/pkg/libpng/lib/contrib/pngrutil.c
+The vulnerability still exists in both files. In comparing them to their counterparts in https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55, they do not reflect the additions made to counteract the vulnerability.
+
+### asuswrt_qca9563_yoru :
+Again, the GitHub link for this project is dead. 
+
+# Sprint 4
+### l4re-snapshot :
+To patch src/l4/pkg/libpng/lib/contrib/pngpread.c, the additions shown in https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55
+would nead to be added. The same goes for src/l4/pkg/libpng/lib/contrib/pngrutil.c, the patch would be the additions shown in https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55.
+
+### asuswrt_qca9563_yoru :
+Again, the GitHub link for this project is dead. 
+
 
