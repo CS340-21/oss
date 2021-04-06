@@ -17,3 +17,15 @@ Sprint 3:
 The vulnerability exists in pngread.c and pngrutil.c and was fixed in 2017. 86u-merlin uses a version of pngread.c from 2010, so the vulnerability does still exist in this program.
 
 The vulnerability exists in http_auth.c and mod-auth.t. Upon inspecting these files in DIR882A1-GPL, they don't contain the fixes that were pushed to Lighttpd in 2011, so the vulnerability still exists.
+
+Sprint 4:
+
+No issue creating patch.
+
+tbd
+
+Sprint 5:
+
+https://github.com/vutung2311/asuswrt/pull/1
+
+tbd
