@@ -24,7 +24,7 @@ Lucmichalski/sboost (Instance 1)
 This project was last updated via commit on May 12, 2020. It has 17 total commits and 2 contributors named lucmichalski and jqueguiner. Every commit was added to the repo on May 12, 2020. The repo has not been updated since. The commits appear to be merge requests and additions from 3rd parties (tag name). The number of updates appears to be split among the contributors. Since there is more than one contributor to this project but infrequent updates, I would say that this project probably would not be open to new contributors due to a loss of interest on the contributor’s part.  
 
 
-Sprint 3
+Sprint 3:
 
 
 EIGHTFINITE/dolphin (Instance 11)
@@ -36,7 +36,7 @@ Lucmichalski/sboost (Instance 1)
 The vulnerability in this project was neglecting a “=” in a conditional statement. The fixed code added the “=”. I used the same method described in the above project to find if the commit, b6a35254d284deb031d90a952dd498b88eed4521, for this repo included the fixed code from the lz4 repo. I went over to the github website and used control + f, I was able to find the code using keywords in the fixed code. I found the conditional statement that the fixed code is referring to but I did not find the “=” that was added in the fixed code. This leads me to believe that the vulnerability still exists in this project. 
 
 
-Sprint 4
+Sprint 4:
 
 I provided patches for the vulnerabilities described in sprint 3. By patching it, I took the code that fixed the vulnerability and added it to their code in a forked repo in my account. There were no issues experienced. The fixed code was easy to add and it didn’t appear to interfere with any of the features in the original code. I will make pull requests in the next sprint (sprint 5). Below are the links to the patched files in my forked repository for each repo. 
 
