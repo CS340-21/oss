@@ -24,3 +24,12 @@ The [vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1265
 
 ### Simple Viewer GL (Instance 3)
 The [vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-17543) for this project stems from the lz4 compression library containing a heap-based buffer overflow which affect certain applications. Thankfully, only a few uncommon usages are at risk, but it's a problem to be addressed (and has!). The fix is in file lz4.c and simply changes a '<' to a '<='. After checking this file in the project source, I have determined that it does not implement the fix and thus currently contains the overvlow mentioned before.
+
+# Sprint 4
+Now I will produce patches for both of the projects and note any issues. These fixes can be found in the previous sprint.
+
+### Factorio tools (Lua) (Instance 1105)
+Since the original repo is completely obsolete, I decidede to take a look at the current one I noted in earlier sprints. (Un)Luckily, this repo contains the same vulnerabilities as the old one. I began by forking the [new repo](https://bitbucket.org/hhrhhr/factorio-lab-tools/src/master/) and making the changes noted in Sprint 3. Sadly, it would seem I am unable to freely create pull requests for this project due to permissions. Furthermore, I do not see how to contact the rpo owner and request him to pull these changes. Anyhow, here is my forked [repo](https://bitbucket.org/ObsidianSkin/factorio-lab-tools/src/master/) with the [fix](https://bitbucket.org/ObsidianSkin/factorio-lab-tools/commits/da943561fec1fb221af2e3ba7ae89f2257d26d43). 
+
+### Simple Viewer GL (Instance 3)
+Again, I noticed the ability to create pull requests was disabled. However, this time I was at least able to make an issue. First, I forked and cloned the [repo](https://bitbucket.org/ObsidianSkin/simple-viewer-gl/src/master/) and [fixed](https://bitbucket.org/ObsidianSkin/simple-viewer-gl/commits/da7a346edf4ae166eeb77eb2f164e50f3884f7a9) the vulnerability (one symbol :D). Then, I proceeded to make the [issue](https://bitbucket.org/andreyu/simple-viewer-gl/issues/25/fixing-off-by-one-error-in-lz4c) and wait patiently.
