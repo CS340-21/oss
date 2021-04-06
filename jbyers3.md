@@ -6,3 +6,7 @@ Sprint 3:
 Instance #1117: The repository still has the vulnerability. On the latest versions of the libpng/pngread.c
 	and libpng/pngrutil.c files, the patches/lines of code aren't there yet.
 Instance #1444: Similarly, the lines in the specified files don't contain the fixes.
+
+Sprint 4:
+Instance #1117: Looking at the version of the directory containing pngread.c, the version is newer than the vulnerability patch.
+Instance #1444: Looking at the version of pngread.c, the version is newer than the vulnerability patch.
