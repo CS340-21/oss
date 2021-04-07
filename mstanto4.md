@@ -26,3 +26,21 @@ The vulnerability for this project exists in the files pngpread.c and pngrutil.c
 
 ### FirmAFL Project (Instance 5)
 The vulnerability for this project has not yet been fixed. The path to the vulnerable files are qemu_mode/DECAF_qemu_2.10/hw/net/pcnet.c and user_mode/hw/net/pcnet.c, which have not been updated to fix the vulnerablity. The vulnerability includes a possible buffer overflow exploit, which has been fixed by changing two lines of code in the pcnet.c file. These two lines have not been changed in either locations yet.
+
+# Sprint 4
+
+### ZenonEngine Project (Instance 464)
+This project does not require a patch because the vulnerability has been fixed.
+
+### FirmAFL Project (Instance 5)
+The fork for which I have fixed the vulnerability is included in the link below. I changed both qemu_mode/DECAF_qemu_2.10/hw/net/pcnet.c and user_mode/hw/net/pcnet.c by modifying the two lines indicated in the fixed commit. 
+* [My Patch](https://github.com/mstanto4/FirmAFL)
+
+# Sprint 5
+### ZenonEngine Project (Instance 464)
+There is no pull request for this project because a patch did not need to be created.
+
+### FirmAFL Project (Instance 5)
+The link to the pull request is included below.
+* [My Pull Request](https://github.com/zyw-200/FirmAFL/pull/45)
+
