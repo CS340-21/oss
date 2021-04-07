@@ -44,3 +44,14 @@ This project has already implemented to patch to the libpng vulnerability refere
 
 ### Facial Recognition for Home Security System ([Instance 93](https://github.com/Mawueugiio/home))
 Since this project is very behind in the update of the libpng, the patch would be too complex to implement to address the vulnerability. It may break parts of the project itself, so it is my recommendation that the authors on this project update their libpng library to version 1.6.37 (April 15, 2019), according to the [libpng website](http://www.libpng.org/pub/png/libpng.html). 
+
+
+# Sprint 5
+
+### Torque3D ([Instance 569](https://github.com/TorqueGameEngines/Torque3D))
+No patch needs to be created, so no PR. 
+
+### Facial Recognition for Home Security System ([Instance 93](https://github.com/Mawueugiio/home))
+I created an issue notifying the authors of the libpng vulnerability. Here is the [issue](https://github.com/Mawueugiio/home/issues/3). Waiting for a response. 
+
+
