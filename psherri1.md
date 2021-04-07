@@ -21,6 +21,8 @@ As far as accepting contributions, this project does not appear to be doing so. 
 ## Sprint 3
 When determining the vulnerability of the project, I compared files across the library repo and the project repo to see if the library code is present in the project than the exploit has not been fixed. I primarily looked at the pngread.c and pngutil.c files. The code mentioned in the libpng files is not present in the project so therefore it is vulnerable.
 
+## Sprint 4 & 5
+To produce a patch for each vulnerability, I forked each project and edited the files referenced in Sprint 3 above. I encountered no issues in doing this, I also requested a pull requests for each of my projects. The link for this one is below.
 
 # LZwolf (Instance #282)
 
@@ -32,3 +34,6 @@ Just like the aforementioned project, this project is not accepting any contribu
 
 ## Sprint 3
 Same criteria was used as the previous project to determine if vulerability exists in the project. The code in pngread.c and pngutil.c is not in the prject's source code. It is vulnerable as well
+
+## Sprint 4 & 5
+Similarily I produced a patch for the vulnerability in this project as well. Also, I submitted a pull request with the necessary changes. Link below.
