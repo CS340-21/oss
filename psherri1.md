@@ -36,4 +36,4 @@ Just like the aforementioned project, this project is not accepting any contribu
 Same criteria was used as the previous project to determine if vulerability exists in the project. The code in pngread.c and pngutil.c is not in the prject's source code. It is vulnerable as well
 
 ## Sprint 4 & 5
-Similarily I produced a patch for the vulnerability in this project as well. Also, I submitted a pull request with the necessary changes. Link below.
+Similarily, I produced a patch for the vulnerability in this project as well. Also, I submitted a pull request with the necessary changes. Link below.
