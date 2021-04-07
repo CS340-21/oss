@@ -35,3 +35,12 @@ The vulnerability referenced [here](https://github.com/glennrp/libpng/commit/347
 
 ### Facial Recognition for Home Security System ([Instance 93](https://github.com/Mawueugiio/home))
 The same vulnerability referenced abovve still exists in this project. They used [libpng 1.6.0 (February 14, 2013)](https://github.com/Mawueugiio/home/blob/f74ff1d14981e2d5eedfb47a3cfcb75ffa27dac1/Face_Recognition/dlib/dlib/external/libpng/pngpread.c) and the vulnerability was resolved in [libpng 1.6.37 (Aug 2, 2017)](https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55). This project was discontinued last year, so no efforts were made to resolve this issue. Both pngrutil.c and pngpread.c are in the repo, not updated due to the library version.
+
+
+# Sprint 4
+
+### Torque3D ([Instance 569](https://github.com/TorqueGameEngines/Torque3D))
+This project has already implemented to patch to the libpng vulnerability referenced in Sprint 3. The commit that addresses this vulnerability patch is referenced in Sprint 3. 
+
+### Facial Recognition for Home Security System ([Instance 93](https://github.com/Mawueugiio/home))
+Since this project is very behind in the update of the libpng, the patch would be too complex to implement to address the vulnerability. It may break parts of the project itself, so it is my recommendation that the authors on this project update their libpng library to version 1.6.37 (April 15, 2019), according to the [libpng website](http://www.libpng.org/pub/png/libpng.html). 
