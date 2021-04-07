@@ -38,7 +38,7 @@ The fork for which I have fixed the vulnerability is included in the link below.
 
 # Sprint 5
 ### ZenonEngine Project (Instance 464)
-There is no pull request for this project because a patch did not need to be created.
+There is no pull request for this project because a patch did not need to be created. A patch was not created because the vulnerability had already been fixed.
 
 ### FirmAFL Project (Instance 5)
 The link to the pull request is included below.
