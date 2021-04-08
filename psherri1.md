@@ -23,7 +23,7 @@ When determining the vulnerability of the project, I compared files across the l
 
 ## Sprint 4 & 5
 Project does not seem to be vulnerable. It is generating the Libpng file by using libraries in python
-[link] (https://github.com/psherrill24/cross_platform_calc/blob/master/kivy-ios/recipes/libpng/__init__.py)
+[link](https://github.com/psherrill24/cross_platform_calc/blob/master/kivy-ios/recipes/libpng/__init__.py)
 
 # LZwolf (Instance #282)
 
