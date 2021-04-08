@@ -20,9 +20,7 @@ The vulnerability exists in http_auth.c and mod-auth.t. Upon inspecting these fi
 
 Sprint 4:
 
-No issue creating patch.
-
-tbd
+No issue creating patch for either project.
 
 Sprint 5:
 
