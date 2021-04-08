@@ -11,3 +11,6 @@ Judging based on the criteria above, it is safe to assume that both projects are
 
 Sprint 3
 The first project's vulnerability has not been fixed.  The vulnerability in Libpng was fixed within the last few months, about 10 months later than the most recent update to the project.  The second project's vulnerability is also out of date.  QEMU's most recent vulnerability fix was about two months ago, roughly a year since the last update to the project.
+
+Sprint 4
+The first project utilizes pngpread.c from Libpng, which was changed in the vulnerability fix.  I have applied this fix here: https://github.com/lyra3/SER401-FALL-19-Project35/blob/dev/Clique/include/fltk-1.3.5/png/pngpread.c . pngrutil.c, which was also changed in the vulnerability fix, is not used by this file.  The second project utilizes pcnet.c from QEMU, which was changed in the vulnerability fix.  I have applied the fix here: https://github.com/lyra3/op-tee/blob/master/qemu/hw/net/pcnet.c .
