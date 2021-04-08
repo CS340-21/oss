@@ -3,4 +3,10 @@ Analyzing the projects assigned to me, they do not appear to be active. The date
 
 Sprint 2: To complete this sprint, I studied the amount of total contributions and the number of contributors. Both projects had many contributors, but there were not many recent contributions. There is no active pull requests or issues assigned. Also, there are no community guidelines for new members of the project. These projects are likely not accepting new contributors.
 
-Sprint 3: The vulnerabilities for these projects have notably been fixed. The fix is in pngpread.c and pngrutil.c.
+Sprint 3: The vulnerabilities for these projects have not been fixed. The associated files for vulnerabilities are found in pngpread.c and pngrutil.c. This is clear because the date of the most recent patch to fix the vulnerabilities is not running with the most recent version of the code. 
+
+Sprint 4: My forked repositories which fixes the vulnerabilities: 
+https://github.com/mscarfo/qemu
+https://github.com/mscarfo/libpng
+
+
