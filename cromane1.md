@@ -13,7 +13,15 @@ For instance 2, I would say it is very safe to say that this project would no lo
 Sprint 3:
 
 Instance 813:
-It would seem that the vulnerability for this project is that an attacker is able to execute arbitrary code via a crafted project file. If found this vulnerability by searching the project through: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10814  With this, it would appear that this vulnerablity still exists because there do now seem to be any patches that reference this issue.
+It would seem that the vulnerability for this project is that an attacker is able to execute arbitrary code via a crafted project file. If found this vulnerability by searching the project through: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10814  With this, it would appear that this vulnerablity still exists because there do not seem to be any patches that reference this issue.
 
 Instance 2:
 Since instance 2 does not seem to be an open source project (it looks like it is meant to be meant for a homework assignment), I think it is safe to say that there are no viable vulnerabilities that could be patched.
+
+Sprint 4:
+
+Instance 813:
+The patch for CodeBlocks can be found [here](https://github.com/cromane1/codeblocks). To do this, I simply forked the library and updated the pngpread.c and pngrutil.c files.
+
+Instance 2:
+Again, no patch would be necessary for this instance because it was a homework assignment and no vulnerabilites could be found for this project.
