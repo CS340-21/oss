@@ -12,3 +12,16 @@ Sprint 3
 Issue #974 (pub.mod) has fixed the vulnerability involving libpng. The project is using a version of libpng that is not vulnerable. The most recent version of libpng that is vulnerable according to the CVE is 1.6.27. pub.mod uses libpng version 1.6.37. This change was made 14 months ago.
 
 Issue #19 (1Engine) has also fixed the vulnerability. This project uses version 1.6.30. I found this information by going into the repos and looking for the libpng files. This project has a readme posted regarding libpng so they seem to be very aware of the potential vulnerabilities involved with libpng. 
+
+Sprint 4
+Issue #974 is no longer susceptible to the vulnerability from older libpng versions. The version the project is using has been updated to a version that is no longer vulnerable and because this is the case, there was no need to produce a patch.
+Issue #19 is also no longer vulnerable to the issues with older versions of libpng. There was no need to produce a patch for this project either.
+
+Sprint 5
+Issue #974 did not require a patch to fix vulnerabilities involving libpng so I did not produce a PR.
+Issue #19 the same is true for this issue. I did not produce a PR nor did I produce a patch for this project.
+
+Sprint 6
+Issue #974 no further correspondence with the repo owner was required because there was no need to produce a patch for this project.
+Issue #19 like issue 974, no correspondence was required.
+
