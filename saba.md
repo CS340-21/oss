@@ -51,3 +51,10 @@ My forked repository can be found [here](https://github.com/samababa/orange). My
 ### Unbiased Weighted Mean Filter (Instance 1257)
 My forked repository can be found [here](https://github.com/samababa/uwmf). My two latest commits should fix
 the vulnerability with no errors. 
+
+## Sprint 5
+
+### Orange (Instance 1016)
+Create a pull request [here](https://github.com/mis9ter/orange/pull/1).
+### Unbiased Weight Mean Filter (Instance 1257)
+Created a pull request [here](https://github.com/cengizkandemir/uwmf/pull/1).
