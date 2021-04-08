@@ -39,3 +39,39 @@ This vulnerability involves the failure of the code to check if the data chunk s
 ## qemu (instance 6)
 
 The vulnerability involves a potential buffer overflow due to an int variable being casted to a size_t variable, the fix simply involves changing the int size variable to type size_t. The file in question, pcnet.c, does exist in my instance's repo and does not include the fix, their version of the file still has the size varibale as type int, and thus still has the buffer overflow vulnerability.
+
+# Sprint 4
+
+I produced patches for both of my assigned projects by forking the prject repositories and adding the code that fixes the vulnerabilities to the vulnerable files in my forked repository. The code that fixes these vulnerabilities didn't have any issues that prevented me from applying the patches, I simply added the fix to the relevant files.  These fixes are in my repo, and I will make pull requests for them on the next sprint.
+
+# Links to patched files
+
+## libpng (instance 398)
+
+These files were replicated multiple times in the project repo, so I had to apply the same fix to these additional files.
+
+Fix I applied: https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55
+
+### pngrutil.c:
+
+
+
+https://github.com/braymar/SSP/blob/master/technobear/rngs/JuceLibraryCode/modules/juce_graphics/image_formats/pnglib/pngrutil.c
+https://github.com/braymar/SSP/blob/master/technobear/clds/JuceLibraryCode/modules/juce_graphics/image_formats/pnglib/pngrutil.c
+https://github.com/braymar/SSP/blob/master/technobear/pmix/JuceLibraryCode/modules/juce_graphics/image_formats/pnglib/pngrutil.c
+
+### pngpread.c:
+
+https://github.com/braymar/SSP/blob/master/technobear/rngs/JuceLibraryCode/modules/juce_graphics/image_formats/pnglib/pngpread.c
+https://github.com/braymar/SSP/blob/master/technobear/clds/JuceLibraryCode/modules/juce_graphics/image_formats/pnglib/pngpread.c
+https://github.com/braymar/SSP/blob/master/technobear/pmix/JuceLibraryCode/modules/juce_graphics/image_formats/pnglib/pngpread.c
+
+
+## qemu (instance 6)
+
+Fix I applied: https://github.com/qemu/qemu/commit/b1d80d12c5f7ff081bb80ab4f4241d4248691192
+
+### pcnet.c:
+
+https://github.com/braymar/afl/blob/master/qemu_mode/qemu-2.10.0/hw/net/pcnet.c
+
