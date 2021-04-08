@@ -42,3 +42,12 @@ this file had the vulnerability.
 ### Unbiased Weighted Mean Filter (Instance 1257)
 This project still has the vulnerability. I simply went to the lines in pngpread.c and pngrutil.c that had changes marked
 and compared them. 
+
+## Sprint 5
+
+### Orange (Instance 1016)
+My forked repository can be found [here](https://github.com/samababa/orange). My latest commit adds the libpng library, while fixing the vulnerability. There shouldn't be any problems; however, a pull request may not be accepted since libpng was recently removed the original repository.
+
+### Unbiased Weighted Mean Filter (Instance 1257)
+My forked repository can be found [here](https://github.com/samababa/uwmf). My two latest commits should fix
+the vulnerability with no errors. 
