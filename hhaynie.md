@@ -11,3 +11,10 @@ When looking at the OOP_indie_studip repository, it can be seen that the vulnera
 libpng with the corrected vulnerability to libpng of OOP_indie_studip.
 
 When looking at ebf_stm32f407_batianhu_emwin_demo, there are many paths that are listed for libpng. Looking through the different paths and comparing pngpread.c and pngrutil.c to the corrected libpng files, it became clear that the files used in the github repository aren't even the same files. There is overlap with some of the function and variable names; however, the majority of the files are completely different.
+
+### Sprint 4:
+The OOP_indie_stupid repository was forked. The proper changes were made to pngpread.c and pngrutil.c to correct the vulnerability. A pull request has been made for the files. The commits for these files can be found in the links below.
+pngpread.c: https://github.com/GaryAF/OOP_indie_studip/pull/1/commits/257194536ebbb06a59bc38f32d952105fa932ec3
+pngrutil.c: https://github.com/GaryAF/OOP_indie_studip/pull/1/commits/b0e1a02201ba48420b897483800e1fff0612b3b2
+
+When looking at ebf_stm32f407_batianhu_emwin_demo and considering comments mentioned in class, the circumstances surrounding the pngpread.c and pngrutil.c files looking completely different than expected were rexamined. Upon further observation, it can be discoved that the version of libpng that is used in this repository is from 2006. Since the changes in the library would be significant and would cause issues of dependancy, it is not reasonable to suggest changes for this repository.
