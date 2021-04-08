@@ -32,8 +32,10 @@ There's really no vulnerabilities as it's just simple class code of algorithms. 
 # Sprint 4
 
 ### Instance 930 - Captain's Engine Game
+Because this game is up to date, there are no vulnerabilities.
 
 ### Instance 470 - OpenGI_miniProgram
+As mentioned before, there's not really any vulnerabilities since it's just practice problems.
 
 # Sprint 5
 # Sprint 6
