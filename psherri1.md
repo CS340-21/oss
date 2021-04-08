@@ -22,8 +22,8 @@ As far as accepting contributions, this project does not appear to be doing so. 
 When determining the vulnerability of the project, I compared files across the library repo and the project repo to see if the library code is present in the project than the exploit has not been fixed. I primarily looked at the pngread.c and pngutil.c files. The code mentioned in the libpng files is not present in the project so therefore it is vulnerable. For this project in particular it looks as though they are generating libpng through the use of a generated recipe, thus I do not think it is vulnerable.
 
 ## Sprint 4 & 5
-Project does not seem to be vulnerable. It is generating the Libpng file by using libraries in python
-[link](https://github.com/psherrill24/cross_platform_calc/blob/master/kivy-ios/recipes/libpng/__init__.py)
+Project does not seem to be vulnerable. It is generating the Libpng file by using libraries in python.
+[Link](https://github.com/psherrill24/cross_platform_calc/blob/master/kivy-ios/recipes/libpng/__init__.py)
 
 # LZwolf (Instance #282)
 
