@@ -5,7 +5,7 @@ Sprint 2: To complete this sprint, I studied the amount of total contributions a
 
 Sprint 3: The vulnerabilities for these projects have not been fixed. This is clear because the date of the most recent patch to fix the vulnerabilities is not running with the most recent version of the code. By comparing the marked changes in pngpread.c and pngrutil.c, the vulnerabilities are still active.
 
-Sprint 4: My forked repositories which fixes the vulnerabilities: 
+Sprint 4: My forked repositories which fix the vulnerabilities: 
 https://github.com/mscarfo/qemu
 https://github.com/mscarfo/libpng
 
