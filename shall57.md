@@ -33,3 +33,8 @@ Similarly, the first project for instance 422 is also a branch of libpng, and th
 Produce patches for both projects. Note any issues.
 
 For both instances, I simply forked the project to my own account and added the vulnerability fix to pngpread.c. I did nothing to pngrutil.c, since this file does not exist in either instance. The commit containing the fix for instance 183 can be seen [here](https://github.com/SHANNON-HALL/3ryparty/commit/a9252e6139cc3e78d6522abf13dba77e7b829bf0), and the commit for instance 422 can be seen [here](https://github.com/SHANNON-HALL/SER401-FALL-19-Project35/commit/824810b4cc68e7dab162d7d2ca58e4956f8256cb). I do not expect any issues, since everything other than this missing section seems mostly the same.
+
+## Sprint 5
+Create PRs from these patches; note the links to these PRs.
+
+The pull request for instance 183 can be found [here](https://github.com/FreeSouth/3ryparty/pull/1), and the pull request for instance 422 can be found [here](https://github.com/SeanRog/SER401-FALL-19-Project35/pull/199).
