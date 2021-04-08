@@ -19,3 +19,13 @@ Using the above criteria, it would appear that neither of the projects are excep
 # **Sprint 3**
 
 I appears that both projects have not fixed their vulnerability. I have determined this by looking at the committ that repaired the vulnerablility in libpng and lightpad and comparing it against the most recent committ for both projects. Both are running older versions of the code with the vulnerabilities still intact.
+
+# **Sprint 4**
+### ProjetKF Project (Instance 55) Patch
+  https://github.com/Andrew-Banks-UT/ProjetKF/blob/master/dependencies/dlib-19.19/dlib/external/libpng/pngrutil.c
+  https://github.com/Andrew-Banks-UT/ProjetKF/blob/master/dependencies/dlib-19.19/dlib/external/libpng/pngpread.c
+
+### DIR882A1-GPL Project (Instance 1) Patch
+  https://github.com/Andrew-Banks-UT/DIR882A1-GPL/blob/master/user/tw-prog.priv/lighttpd_mtk/lighttpd-1.4.20/src/http_auth.c
+  
+No issues patching either code. 
