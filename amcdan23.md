@@ -29,6 +29,6 @@ It's impossible to know for *sure*, but I will assume they would accept contribu
 
 Instance 313 does not have the vulnerability because it no longer exists, but instance 243 still definitely has the vulnerability. The files `PHOENIXEngine/PHOENIX/PX2Engine/Unity/ImageLibs/PNG/pngpread.c` and `PHOENIXEngine/PHOENIX/PX2Engine/Unity/ImageLibs/PNG/pngrutil.c` contain extremely similar code from the libpng repository, but they do not contain the added code or any comments added in the changes from [the patch commit](https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55).
 
-# Sprint 4
+# Sprint 4 & 5
 
-Instance 313 cannot be patched because it no longer exists, but the pull request to fix instance 243 is [here](https://github.com/ycwang812/SLAMCar/pull/1). I simply forked the project, implemented the change, pushed to my copy of the repository, and created a pull request to the upstream repo.
+Instance 313 cannot be patched because it no longer exists, but the pull request to fix instance 243 is [here](https://github.com/ycwang812/SLAMCar/pull/1). I simply [forked the project](https://github.com/adam-mcdaniel/SLAMCar), implemented the change, pushed to my copy of the repository, and created a pull request to the upstream repo.
