@@ -1,3 +1,6 @@
+\documentclass[11pt,twoside,a4paper]{book}
+\usepackage{hyperref}
+\begin{document}
 Sprint 1: 
 The two instances that I have been assigned are instances 1246 and 40. I identify if these projects are active by seeing pull timings, issues, milestones, commentary, or changes to the repository. 
 
@@ -20,3 +23,15 @@ Sprint 3:
 Instance 1246: This repository's pngpread.c file is clearly missing the additions provided with the referenced commit and, therefore, is still suffering from the same vulnerability. A similar thing could be said about the pngrutil.c file, where certainly the locations of the code changes isn't shared. It follows that the vulnerabilities still existed and the files should be updated.
 
 Instance 41: This repository's pngpread.c file is clearly missing the additions provided with the referenced commit and, therefore, is still suffering from the same vulnerability. A similar thing could be said about the pngrutil.c file. It follows that the vulnerabilities still existed and the files should be updated.
+
+Sprint 4:
+
+Instance 1246: BennetLeff/Buzzsaw's files have been edited significantly (with some variable name changes, too), so, as a result, I am nervous that producing a simple patch could break their abilities to use the files.
+
+Instance 41: HeyColton/PosterPro's pngpread hasn't been changed significantly, so it can be patched. I merely copied the change to pngpread and put it in where directed. The second file, on the other hand, has been changed significantly so I am worried I could break it by updating it.
+
+Sprint 5: 
+
+Link to pull request for the single patch I did here: \href{https://github.com/HeyColton/PosterPro/pull/1}{Pull Request}. (Instance 41)
+
+\end{document}
