@@ -46,8 +46,17 @@ in the vulnerability-fix commit in either of the files from either path, leading
 # Sprint 4
 
 ### opencv (instance 1337)
+I edited the files pngpread.c and pngrutil.c (found in the path mentioned above) and inserted the correct code fragments as specified 
+in the commit https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55. I then created a pull request and explained 
+in a comment the edits I made, as well as linked the commit that fixed the vulnerabilities: "Check length of all chunks except IDAT against user limit". 
+Here is a link to my pull request: 
 
+https://github.com/opencv/opencv/pull/19878
 
 ### Qt5 (instance 1319)
+I edited the files pngpread.c and pngrutil.c (found in the paths mentioned above) and inserted the correct code fragments as specified 
+in the commit https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55. I then created a pull request and explained 
+in a comment the edits I made, as well as linked the commit that fixed the vulnerabilities: "Check length of all chunks except IDAT against user limit". 
+Here is a link to my pull request: 
 
-
+https://github.com/CdTCzech/Qt5/pull/14
