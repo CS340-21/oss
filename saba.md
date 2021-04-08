@@ -30,3 +30,15 @@ This project is most likely not accepting new contributions.
 Again there are no active issues or pull requests and only a single contributor in the commit hisotry.
 While there were some recently made commits, the project was left untouched for over a year before this so I cannot say
 with certainty whether a contribution would be accepted, but I am inclined to say "no" for the other reasons.
+
+## Sprint 3
+To find out whether the projects had the vulnerability, I searched their files for pngpread.c and pngrutil.c and 
+compared these to the commit found [here](https://github.com/glennrp/libpng/commit/347538efbdc21b8df684ebd92d37400b3ce85d55?branch=347538efbdc21b8df684ebd92d37400b3ce85d55&diff=split).
+### Orange (Instance 1016)
+This is a little wierd, but it seems this project has removed libpng from the repository. The filepath
+that was listed [here](https://davidalanreid.github.io/output/347538efbdc21b8df684ebd92d37400b3ce85d55/vulnerable.hack.html) no longer exists, and I could not find either of the edited files by searching. I went through the commit history and [found the most recent version that still contained the libpng](https://github.com/mis9ter/orange/tree/29e089d52caf418312316c58d0b9e5218e2b2903/agent/reference/reactos-master/reactos-master/dll/3rdparty/libpng). Unfortunately,
+this file had the vulnerability.
+
+### Unbiased Weighted Mean Filter (Instance 1257)
+This project still has the vulnerability. I simply went to the lines in pngpread.c and pngrutil.c that had changes marked
+and compared them. 
