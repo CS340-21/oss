@@ -32,7 +32,7 @@ There have been commits relatively recently, as specified in Sprint 1. There are
 Cross-referencing the libpng/pngread.c file from libpng to oneEngine/oneGame/source-lib/png/pngpread.c in 1Engine, it appears to not have been fixed yet as pngread.c does not contain the updated code.
 
 ## Sprint 4
-Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c in the 1Engine project.
+Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c in the 1Engine project. No issues were found.
 
 # wheybags / freeablo (Instance 204)
 
@@ -46,4 +46,4 @@ There have not been commits in nearly a year. There are multiple developers cont
 Cross-referencing the libpng/pngread.c file from libpng to extern/libpng/pngpread.c in freeablo, it appears to not have been fixed yet as pngpread.c does not contain the updated code.
 
 ## Sprint 4
-Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c in the freeablo project.
+Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c in the freeablo project. No issues were found.
