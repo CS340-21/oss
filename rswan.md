@@ -26,3 +26,25 @@ To check if this vulnerability still exists I checked the commit that fixed the 
 
 QEMU (Instance 1)
 To check if this vulnerability still exists I checked the commit that fixed the QEMU vulnerability and compared it to the file that contained the vulnerability. The file that contained the vulnerability was pcnet.c. The file in the instance I was tasked with does not contain the code that fixed the vulnerability. Based on this I have concluded that the vulnerability still exists in the project. 
+
+SPRINT 4:
+
+Libpng (Instance 1211)
+To fix this vulnerability I copied the code from the commit that fixed the issue into the file that contained the vulnerability The link to my updated file is below.
+https://github.com/BuddySwan/chromium/blob/master/third_party/libpng/pngpread.c
+https://github.com/BuddySwan/chromium/blob/master/third_party/libpng/pngrutil.c
+
+QEMU (Instance 1)
+To fix this vulnerability I performed the same action as I did for the vulnerability in Libpng. The link is below
+https://github.com/BuddySwan/qemu-2.10.0/blob/master/hw/net/pcnet.c
+
+SPRINT 5:
+
+I created pull requests for both of the fixes made in Sprint 4
+
+Libpng (Instance 1211)
+https://github.com/ECS-251-W2020/chromium/pull/5
+
+QEMU (Instance 1)
+https://github.com/ssdemajia/qemu-2.10.0/pull/1
+
