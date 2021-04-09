@@ -18,3 +18,13 @@ There are no pull requests, forks, or issues. The creator is the sole contributo
 ### amiga-utils (instance 996)
 
 There are no pull requests or forks. I did see one issue asking about the license, so it seems like the project might be used by someone outside of the creator. The creator is the sole contributor, however he/she is relatively active on github, so they might be open to contributions. 
+
+# Sprint 3
+
+### Sauce3D (911) & amiga-utils (996)
+
+In both cases, the files in question had been updated since the libpng commit. However, I was unable to find some code from that commit in either of the files. This prompted me to look at the libpng's pngpread.c file. The source file doesn't contain the code either, so I'm guessing they've subsequently changed things further. I am not sure how to check whether the vulnerabilty remains, however I would be surprised if it didn't, given that the projects seem up to date with the current libpng repo.
+
+
+
+
