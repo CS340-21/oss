@@ -28,10 +28,20 @@ I believe this project is not accepting any new contributions as well.
 
 Criteria used was comparing the vulnerability fixes in libpng and lighttpd with the files in the assigned repos.
 
-## Instance 921
+### Instance 921
 The vulnerability fix seems to be absent in pngread.c, however, the fix exists (although it is altered) in pngrutil.c. This leads me to belive these
 vulnerabilities are still exploitable in this instance.
 
-## Instance 4
+### Instance 4
 The out of bounds read vulnerability in this instance is not fixed. There is no cast to an unsigned char in the same place as the fixed library. This
 vulnerability is still exploitable.
+
+# Sprint 4
+
+### Instance 921
+Added vulnerability fix for pngread.c.
+https://github.com/CBrooks36/libgender_age_model.so/blob/ae7492f5df33e94fdddcb2869bf79000a304ebf8/opencv-3.4.5/3rdparty/libpng/pngread.c#L135
+
+### Instance 4
+Added vulnerability fix for http_auth.c.
+https://github.com/CBrooks36/lighttpd-1.4.20/blob/1886dbbedc12e3b5a385f1387c306f16e80f1730/src/http_auth.c#L93
