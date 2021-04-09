@@ -25,3 +25,6 @@ Both projects' vulnerabilities were in files pngpread.c and pngrutil.c from libp
 
 # Sprint 4
 I produced a patch for the project that still contained the vulnerability, wePRO, by forking the project and simply making the changes that the specific commit made rather than updating the whole version of libpng, which could create other incompatibility issues with the project. See https://github.com/s4mpl/wePRO/commit/13d4e26365bb64776b73882c933c2b9ff2331ff5 and https://github.com/s4mpl/wePRO/commit/b8db29a9ea49fdca4f30e2e72d9e4d624c9dafd8
+
+# Sprint 5
+I submitted a pull request to QK-Lite/wePRO, as seen [here](https://github.com/QK-Lite/wePRO/pull/1).
