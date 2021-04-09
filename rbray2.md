@@ -31,3 +31,11 @@ Since the vulnerability was in pngread.c and pngrutil.c, I checked to see the la
 
 ## Instance 869:   slowrunner/Carl  
 In this project, I was going to use the same method for checking if the vulnerability still exists. When I searched for the path to these files, though, it appeared that the path no longer exists. It seems like this program is no longer using libpng, so it is safe to conclude that the vulnerability no longer exists in this project, either.
+
+# Sprint 4
+
+## Instance 1101:   Ultraschall/ultraschall-soundboard
+Since it seems like the vulnerability does not exist any longer using the above criteria, it is not reasonable to commit a patch for this project, especially since the commit that they made was this year on January 6, 2021.
+
+## Instance 869:   slowrunner/Carl 
+As stated in the previous sprint, this project does not use libpng any longer. Therefore, it is also not reasonable to commit a patch to this project, either.
