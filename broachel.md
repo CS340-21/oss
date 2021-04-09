@@ -22,3 +22,6 @@ Both projects seem to have been abandoned, and there never was any GitHub collab
 
 # Sprint 3
 Both projects' vulnerabilities were in files pngpread.c and pngrutil.c from libpng, a popular reference library for handling PNGs. jak-disassembler seems to have removed these files as I cannot find them in the path specified by the vulnerability page, so the vulnerability is also gone. However, wePRO's libpng files are still there and the file headers claim that this is a version from 2014, and the vulnerability was patched in 2017, so it has not yet been fixed here. I checked the files to confirm that the code segment from the libpng commit was missing.
+
+# Sprint 4
+I produced a patch for the project that still contained the vulnerability, wePRO, by forking the project and simply making the changes that the specific commit made rather than updating the whole version of libpng, which could create other incompatibility issues with the project. See https://github.com/s4mpl/wePRO/commit/13d4e26365bb64776b73882c933c2b9ff2331ff5 and https://github.com/s4mpl/wePRO/commit/b8db29a9ea49fdca4f30e2e72d9e4d624c9dafd8
