@@ -42,3 +42,10 @@ To produce a patch for each vulnerability, I forked each project and edited the 
 and I will be submitting a PR for each. My forks containing the patches for the vulnerabilities of each project are linked below.
 * [Qt5 - patched](https://github.com/rossketron/qt5)
 * [Universal Tools - patched](https://github.com/rossketron/universal_tools)
+
+## Sprint 5 - Create pull requests for the vulnerabilty patches made in sprint 4
+
+I made a pull request to merge my fork of each project (containing the vulnerabilty patch) with the master/main branch of the project's repository.
+The pull requests are linked below.
+* [Qt5 - pull request](https://github.com/cproc/qt5/pull/9)
+* [Universal Tools - pull request](https://github.com/utechnique/universal_tools/pull/1)
