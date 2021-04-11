@@ -27,3 +27,14 @@ The vulnerability still exists. The code to fix the vulnerability is not include
 
 ## QEMU (Instance 14)
 The vulnerability still exists. The vulnerability fix was to change one of the int variables to a size_t, and according to the instance file, it is still an int. 
+
+# Sprint 4
+
+## libpng(Instance 953)
+https://github.com/andyv0110/ebf_stm32f407_batianhu_emwin_demo/commit/ce909b92d61dcf743c11dd7ce637f13f2b6eca5d#diff-57330f18460785950d74b70aecd054bb5cafac3e3283cefddbd70b098f2eb7fb
+https://github.com/andyv0110/ebf_stm32f407_batianhu_emwin_demo/commit/70e13c6404a29e12c489e6065f372b21d86c62e8#diff-a115a1321e5868ddb213fdbf08dc0f669c0e0cb908e616a9de0289f1e6d0e1b3
+
+## QEMU (Instance 14) 
+https://github.com/andyv0110/FreertosMultiUART/commit/176d0158c109419a03d3332919a30f43669f060a#diff-c63aceca62c504788add4e0228269afa4dc42db0e6f4a48d20b5cec915afa44b
+
+While there were not any outstanding issues when producing the patches, I will note that the code in libpng(Instance 953) is significantly outdated, meaning the patch may not be utilized. 
