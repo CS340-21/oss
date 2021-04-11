@@ -32,6 +32,7 @@ The vulnerability still exists. The vulnerability fix was to change one of the i
 
 ## libpng(Instance 953)
 https://github.com/andyv0110/ebf_stm32f407_batianhu_emwin_demo/commit/ce909b92d61dcf743c11dd7ce637f13f2b6eca5d#diff-57330f18460785950d74b70aecd054bb5cafac3e3283cefddbd70b098f2eb7fb
+
 https://github.com/andyv0110/ebf_stm32f407_batianhu_emwin_demo/commit/70e13c6404a29e12c489e6065f372b21d86c62e8#diff-a115a1321e5868ddb213fdbf08dc0f669c0e0cb908e616a9de0289f1e6d0e1b3
 
 ## QEMU (Instance 14) 
