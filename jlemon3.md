@@ -37,6 +37,9 @@ the libpng files under the `dolphin/Externals/libpng` directory. Therefore, the 
 ### Sprint 4 and 5
 I have raised an issue in the repository ([#86 Update Dolphin libpng library to properly check length of chunks against user limit](https://github.com/beaumanvienna/marley/issues/86)) and created a new pull request with the appropriate changes ([#87 Check length of all chunks except IDAT against user limit](https://github.com/beaumanvienna/marley/pull/87))
 
+### Sprint 6
+The pull request has been merged into the repository without any responses needed.
+
 
 
 ## Progression (instance 2)
@@ -55,3 +58,6 @@ The LZ4 exploit fix adds new code to `lz4.c` at line 1043. However, this new cod
 
 ### Sprint 4 and 5
 I have raised an issue in the repository ([#1 Update LZ4 library to remove heap buffer overflow vulnerability](https://github.com/LiamTyler/Progression/issues/1)) and created a new pull request with the appropriate changes ([#2 Fix off-by-one error in LZ4 to fix overflow vulnerability](https://github.com/LiamTyler/Progression/pull/2)).
+
+### Sprint 6
+The pull request hasn't been responded to nor has it been merged. The repository seems to be dead.
