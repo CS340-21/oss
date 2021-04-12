@@ -51,3 +51,10 @@ My patched pngread.c for forked dolphin repo: https://github.com/gstrick2/dolphi
 My patched lz4.c for forked sboost repo:
 https://github.com/gstrick2/sboost/blob/master/3rdparty/manticore/manticoresearch/src/lz4/lz4.c 
 
+
+Sprint 5
+
+Below are the links for the pull requests made for the patched vulnerabilities.
+
+Pull request for sboost project: https://github.com/lucmichalski/sboost/pull/1 
+Pull request for dolphin project: https://github.com/EIGHTFINITE/dolphin/pull/1 
