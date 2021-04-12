@@ -42,3 +42,12 @@ For this project both the old and currents repos do not allow randoms to create 
 
 ### Simple Viewer GL (Instance 3)
 Again, the ability to create pull requests on this project is disabled. I did submit an [issue](https://bitbucket.org/andreyu/simple-viewer-gl/issues/25/fixing-off-by-one-error-in-lz4c), which the lead developer reponded to and promptly addressed (again, repeating myself from Sprint 4).
+
+# Sprint 6
+For the final sprint, I need to respond to any questions to get the patch accepted and note if a response was needed.
+
+### Factorio tools (Lua) (Instance 1105)
+Since I was unable to create a PR for this project, a response is not needed.
+
+### Simple Viewer GL (Instance 3)
+For this project, I provided details and necessary documentation in my [PR](https://bitbucket.org/andreyu/simple-viewer-gl/issues/25/fixing-off-by-one-error-in-lz4c) to get it accepted. Afterwards, the issue was resolved and further discourse was not required.
