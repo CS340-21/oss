@@ -33,3 +33,12 @@ Since the original repo is completely obsolete, I decidede to take a look at the
 
 ### Simple Viewer GL (Instance 3)
 Again, I noticed the ability to create pull requests was disabled. However, this time I was at least able to make an issue. First, I forked and cloned the [repo](https://bitbucket.org/ObsidianSkin/simple-viewer-gl/src/master/) and [fixed](https://bitbucket.org/ObsidianSkin/simple-viewer-gl/commits/da7a346edf4ae166eeb77eb2f164e50f3884f7a9) the vulnerability (one symbol :D). Then, I proceeded to make the [issue](https://bitbucket.org/andreyu/simple-viewer-gl/issues/25/fixing-off-by-one-error-in-lz4c) and wait patiently.
+
+# Sprint 5
+Now I need to create pull requests for the patches I created and note the links to these pull requests.
+
+### Factorio tools (Lua) (Instance 1105)
+For this project both the old and currents repos do not allow randoms to create new pull requests. Furthermore, I am not able to submit issues since they are not setup for these bitbucket projects. Finally, I do not see any way to contact these developers using their bitbucket account names (no clickable profiles, it seems) without trying to OSINT my way to their email. Therefore, I am unable to create a pull request for the patch I have made (as I noted in the previous sprint).
+
+### Simple Viewer GL (Instance 3)
+Again, the ability to create pull requests on this project is disabled. I did submit an [issue](https://bitbucket.org/andreyu/simple-viewer-gl/issues/25/fixing-off-by-one-error-in-lz4c), which the lead developer reponded to and promptly addressed (again, repeating myself from Sprint 4).
