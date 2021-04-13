@@ -9,11 +9,10 @@ Based on the fact that there are many contributors and the project is slowly mak
 
 Sprint 3
 
-This github has not been updated in over nine months, which told me that more than likely it had not been updated to include this patch. After further investigation of the files, neither file is in the repository stepmania which means that the bug can still be exploited on this version, and therefore still vulnerable.
+This project is currently using the version of libpng from 2019, and since the vulnerability was patched in the 2017 version, the patch has been fixed.
 
-Sprint 4
-
-Sprint 5
+Sprint 4/5
+Since the vulnerability has been addressed in the 2019 version, there is no reason the address this with a new patch
 
 For this I was also assigned instance 364 - Totalcross/totalcross
 
@@ -25,6 +24,9 @@ This project does seem to be accepting contributions considering there are only 
 
 Sprint 3
 
-A similar test was done simply to see if they had added the patch, and again these files were not present so therefore the project is still vulnerable and can be exploited.
+After investigation of the libpng libraries, this project is using an older version (2016) of the libraries which still contain the vulnerability, this project is still vulnerable.
+
+Sprint 4/5
+
 
 
