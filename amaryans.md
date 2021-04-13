@@ -27,7 +27,7 @@ Sprint 3
 After investigation of the libpng libraries, this project is using an older version (2016) of the libraries which still contain the vulnerability, this project is still vulnerable.
 
 Sprint 4/5
-Forked the project and changed both of the files described above with the vulnerability patches. Links to the changed files are below. Pull requests have been made for each of these patches
+Forked the project and changed both of the files described above with the vulnerability patches. Links to the changed files are below. Since I am not a part of the organization that is working on TotalCross, I am not allowed to make a PR. I have made a PR on my own fork though if that is acceptable. If not let me know and I will attempt to join their project and submit the request.
 https://github.com/amaryans/totalcross/blob/amaryans-patch-1-pngpread-vulnerability/TotalCrossVM/src/png/pngpread.c
 https://github.com/amaryans/totalcross/blob/amaryans-patch-2-chunk-length-vulnerability/TotalCrossVM/src/png/pngrutil.c
 
