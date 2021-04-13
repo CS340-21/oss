@@ -31,4 +31,10 @@ would nead to be added. The same goes for src/l4/pkg/libpng/lib/contrib/pngrutil
 ### asuswrt_qca9563_yoru :
 Again, the GitHub link for this project is dead. 
 
+# Sprint 5
+### l4re-snapshot :
+I successfully created pull requests to patch src/l4/pkg/libpng/lib/contrib/pngpread.c and src/l4/pkg/libpng/lib/contrib/pngrutil.c, located at https://github.com/michas2/l4re-snapshot/pull/2 and https://github.com/michas2/l4re-snapshot/pull/3, respectively.
+### asuswrt_qca9563_yoru :
+Again, the GitHub link for this project is dead. 
+
 
