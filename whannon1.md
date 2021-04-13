@@ -37,7 +37,7 @@ I successfully created pull requests to patch src/l4/pkg/libpng/lib/contrib/pngp
 ### asuswrt_qca9563_yoru :
 Again, the GitHub link for this project is dead. 
 
-# Sprint 5
+# Sprint 6
 ### l4re-snapshot :
 I don't think any questions are necessary for my proposed patches, but I will update this if that changes.
 ### asuswrt_qca9563_yoru :
