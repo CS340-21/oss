@@ -12,3 +12,8 @@ Instance #1154 is still accepting contributions and submissions seem to be made 
 SPRINT 3
 
 Instance #1154 still contains the libpng vulnerability in the file pngpread.c. I compared the fix to the version of libpng that Simutrans was using and determined that they were not using the latest version that contained the patch. The version is recent enough that the issue can be easily resolved, simply by adding the segment of code that fixed the issue.
+
+SPRINT 4
+
+https://github.com/BradenButler/simutrans/blob/master/libs/lpng1637/pngpread.c
+this is a link to the patched file "pngpread.c" in simutrans. The issue in the other file "pngrutil.c" seems to have been patched already.
