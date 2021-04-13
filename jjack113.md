@@ -43,7 +43,7 @@ determine what code I needed to look for within the project's files. I then open
 and viewed the files. I did not find the specific chunk of code that was referenced 
 in the vulnerability-fix commit in either of the files from either path, leading me to believe that the vulnerability still exists. 
 
-# Sprint 4
+# Sprint 4/Sprint 5
 
 ### opencv (instance 1337)
 I edited the files pngpread.c and pngrutil.c (found in the path mentioned above) and inserted the correct code fragments as specified 
