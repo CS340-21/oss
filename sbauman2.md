@@ -31,3 +31,11 @@ This one I believe still has the vulnerability, buecause pngread.c does not cont
 ### Try/Tempest
 
 This one looks like it still has the vulnerability, also because pngread.c does not contain the updated code from the the commit that fixed the vulnerability.
+
+## Sprint 4
+
+I fixed the vulnerability for both projects in exactly the same way: I updated pngpread.c with the relevant code. pngrutil.c did not need updating in either case.
+
+https://github.com/sam-baumann/Tempest
+
+https://github.com/sam-baumann/DISTRHO-Ports
