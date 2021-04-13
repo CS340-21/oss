@@ -35,3 +35,14 @@ For both instances, I had to produce patches for 3rd party software. The files t
 
 JKolodziejczak/povray-polar - https://github.com/JKolodziejczak/povray-polar/compare/master...Comwiz180:master
 gdregalo/browser-android-tabs - https://github.com/gdregalo/browser-android-tabs/compare/base-80.0.3987.132...Comwiz180:base-80.0.3987.132
+
+There were no issues in completing this assignment to note.
+
+# Sprint 5
+
+For both instances, I had to create a pull request that displayed the changes I made to pngrutil.c and pngprutil.c files in hope that the owner of the original files will adopt them. To see the pull requests, hit the links below:
+
+JKolodziejczak/povray-polar - https://github.com/JKolodziejczak/povray-polar/pull/1
+gdregalo/browser-android-tabs - https://github.com/gdregalo/browser-android-tabs/pull/1
+
+There were no issues in completing this assignment to note.
