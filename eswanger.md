@@ -28,3 +28,10 @@ JKolodziejczak/povray-polar - By copying and pasting their files and comparing i
 gdregalo/browser-android-tabs - By copying and pasting their files and comparing it to the fixed version, the two files have not been updated and still contain the vulenerabilities.
 
 brave/browser-android-tabs - This leads to an error 404, suggesting this person is either no longer attached to the project or is hidden.
+
+# Sprint 4
+
+For both instances, I had to produce patches for 3rd party software. The files that need to change were pngrutil.c and pngprutil.c. To see the changes made, for each instance, click the links below:
+
+JKolodziejczak/povray-polar - https://github.com/JKolodziejczak/povray-polar/compare/master...Comwiz180:master
+gdregalo/browser-android-tabs - https://github.com/gdregalo/browser-android-tabs/compare/base-80.0.3987.132...Comwiz180:base-80.0.3987.132
