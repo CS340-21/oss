@@ -1,3 +1,5 @@
+Sprint 1 & 2: 
+
 To determine if the OSS projects I have been assigned are still active, I will analyze the recency of the latest commits and issues, the quantity of recently opened and closed issues, and the project's milestones and releases.
 
 To determine if these OSS projects are accepting contributions, I will analyze the number of contributors, the recency of contributions, and the activity on the issues and author responses.
@@ -10,4 +12,12 @@ Amriaa/Blick-and-Sink-Frontend is the repository of a submission to Oxford Digit
 2. Issue 966: https://github.com/MokshChoudhary/Drishti
 MokshChoudhary/Drishti has one contributor, no issues, and no pull requests.  The repository was created about a year ago and seems to integrate Microsoft Visual Studio with the opencv library.  The repository was only active the day that it was created and one day about 6 months later. There is very limited documentation. This leads me to believe that the project has been completed or abandoned, is inactive, and not accepting contributions. 
 
-Given the above criteria-- my projects are not accepting contributions and do not have vulnerabilities that need to be patched.
+Given the above criteria-- my projects are not accepting contributions.
+
+Sprint 3: 
+
+1. Issue 118: https://github.com/Amriaa/Blink-and-Sink-Frontend
+This repository's pngpread.c file and pngrutil.c file do not seem to have locations tagged with vulnerability fix commits. It follows that the vulnerabilities still existed and the files should be updated.  I checked the files that are still in the repo and the associated commits.
+
+2. Issue 966: https://github.com/MokshChoudhary/Drishti
+Likewise, this repository's pngpread.c file and pngrutil.c file also do not seem to have locations tagged with vulnerability fix commits. It follows that the vulnerabilities still existed and the files should be updated.  I checked the files that are still in the repo and the associated commits.
