@@ -72,3 +72,11 @@ I was mistaken in Sprint 3. Upon closer inspection, both the pngread.c and the p
 patches for them. The pngrutil.c doesn't have the if, ifdef, elif, and endif statements from the patch, but it does have a single line of code meant 
 to "Check for too large chunk length" like the patch does. I'm no longer certain that a patch would fix this vulnerability. For the second project, 
 much older versions of the pngread.c and pngrutil.c were used and any patches would probably cause more harm than good. 
+
+------------------
+
+# Sprint 5
+
+Because my first project had newer versions of pngread.c and pngrutil.c than the patches did, I could not add the patches to them. Therefore, 
+there are no pull requests for this project. My second project's pngread.c and pngrutil.c were much older than the patches' versions; therefore, I 
+could not create patches for this project either. There is no pull request for this project either. 
