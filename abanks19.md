@@ -29,3 +29,7 @@ I appears that both projects have not fixed their vulnerability. I have determin
   https://github.com/Andrew-Banks-UT/DIR882A1-GPL/blob/master/user/tw-prog.priv/lighttpd_mtk/lighttpd-1.4.20/src/http_auth.c
   
 No issues patching either code. 
+
+# **Sprint 5**
+https://github.com/khaledabdrabo98/ProjetKF/pull/1
+https://github.com/ljrk0/DIR882A1-GPL/pull/2
