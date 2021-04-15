@@ -44,3 +44,10 @@ There is no pull request for this project because a patch did not need to be cre
 The link to the pull request is included below.
 * [My Pull Request](https://github.com/zyw-200/FirmAFL/pull/45)
 
+# Sprint 6
+### ZenonEngine Project (Instance 464)
+There is no pull request for this project because a patch did not need to be created. A patch was not created because the vulnerability had already been fixed. Therefore, no response was needed.
+
+### FirmAFL Project (Instance 5)
+There have not been any questions asked about my pull request. Given that this project seems to be inactive, with the amount of pull requests and issues that are still open, I do not think that it is likely that anyone will merge my pull request nor will anyone ask questions on it. 
+
