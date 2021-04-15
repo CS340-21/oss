@@ -177,5 +177,5 @@ I have made a pull request for my contribution at: https://github.com/pcsx4emude
 I got a response back from the maintainers of the repository. They said that they were not accepting contributions because the repository contained a university project. Therefore, I did not try further to submit this pull request.
 
 ### Instance 300
-I have not yet received a response from the owner of the repository.
+I did not receive a response from the owner of the repository.
 
