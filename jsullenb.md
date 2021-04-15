@@ -14,3 +14,6 @@ The first project's vulnerability has not been fixed.  The vulnerability in Libp
 
 Sprint 4
 The first project utilizes pngpread.c from Libpng, which was changed in the vulnerability fix.  I have applied this fix here: https://github.com/lyra3/SER401-FALL-19-Project35/blob/dev/Clique/include/fltk-1.3.5/png/pngpread.c . pngrutil.c, which was also changed in the vulnerability fix, is not used by this file.  The second project utilizes pcnet.c from QEMU, which was changed in the vulnerability fix.  I have applied the fix here: https://github.com/lyra3/op-tee/blob/master/qemu/hw/net/pcnet.c .
+
+Sprint 5
+The links to the pull requests are here: https://github.com/SeanRog/SER401-FALL-19-Project35/pull/200 https://github.com/xiang-lab/op-tee/pull/1
