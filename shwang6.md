@@ -20,8 +20,8 @@ Project SimpleSample11 (Instance 320)
 Path: implib/DevIL/IL/libpng/pngpread.c and pngrutil.c. The last update in those files were in 2016, which is before the date in which commits were made to resolve those vulnerabilties. Based on this information, I believe that vulnerabilties may still exist. 
 
 ## Sprint 4
-For both instances, I forked both repositories onto my account and added the vulnerability fix to pngpread.c. The commit for Instance 319 can be found at https://github.com/shwang6/manageXPence/commit/ec676706fec79bc8429c8fd4645d64f2b36942a1, and the commit for Instance 320 can be found at https://github.com/shwang6/SimpleSample11/commit/72c305030ff214a91dd17dfabf67a6d734972d44.
+For both instances, I forked both repositories onto my account and added the vulnerability fix to pngpread.c. The commit for Instance 319 can be found [here](https://github.com/shwang6/manageXPence/commit/ec676706fec79bc8429c8fd4645d64f2b36942a1), and the commit for Instance 320 can be found [here](https://github.com/shwang6/SimpleSample11/commit/72c305030ff214a91dd17dfabf67a6d734972d44).
 
 ## Sprint 5
-The pull request for Instance 319 can be found at https://github.com/gkosmadakis/manageXPence/pull/3, and the pull request for Instance 320 can be found at https://github.com/f3db43f4g443/SimpleSample11/pull/1.
+The pull request for Instance 319 can be found [here](https://github.com/gkosmadakis/manageXPence/pull/3), and the pull request for Instance 320 can be found [here]( https://github.com/f3db43f4g443/SimpleSample11/pull/1).
 
