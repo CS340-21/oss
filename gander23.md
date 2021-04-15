@@ -6,8 +6,10 @@ Sprint 2 - The commits were also only made by a single user, making me question 
 
 Sprint 3 - The vulnerability has not been solved as when I compared the file in the instance to the vulnerability fix I noticed the changes were not added to the file.
 
-Sprint 4&5 - I was able to make the patch for this Instance but I was unable to clone the repo, when I attempted to do so Iw as met with the following error "fatal: unable to checkout working tree
+Sprint 4/5 - I was able to make the patch for this Instance but I was unable to clone the repo, when I attempted to do so I was met with the following error "fatal: unable to checkout working tree
 warning: Clone succeeded, but checkout failed."
+
+Sprint 6: I was unable to do add a pull request due to the error described in the last sprint, so it was impossible to add any contributions to get my pull request accepted.
 
 Instance 978:
 
@@ -18,3 +20,5 @@ Sprint 2 - Looking at the issues, we can see that dependabot has 5 pull request 
 Sprint 3 - The vulnerability has not been resolved as when I compared the file in the instance to the vulnerability fix I noticed the changes were not added to the file.
 
 Sprint 4&5 - I fixed the vulnerabilities present in the code and made a PR at https://github.com/Samp21/FYP/pull/8
+
+Sprint 6: The person who controls this Instance has not responded in any form to my pull request so I didn't provide any extra documentation to prove the vulnerability.
