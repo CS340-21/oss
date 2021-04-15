@@ -23,6 +23,7 @@ I appears that both projects have not fixed their vulnerability. I have determin
 # **Sprint 4**
 ### ProjetKF Project (Instance 55) Patch
   https://github.com/Andrew-Banks-UT/ProjetKF/blob/master/dependencies/dlib-19.19/dlib/external/libpng/pngrutil.c
+  
   https://github.com/Andrew-Banks-UT/ProjetKF/blob/master/dependencies/dlib-19.19/dlib/external/libpng/pngpread.c
 
 ### DIR882A1-GPL Project (Instance 1) Patch
@@ -32,4 +33,5 @@ No issues patching either code.
 
 # **Sprint 5**
 https://github.com/khaledabdrabo98/ProjetKF/pull/1
+
 https://github.com/ljrk0/DIR882A1-GPL/pull/2
