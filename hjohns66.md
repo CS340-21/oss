@@ -80,3 +80,9 @@ much older versions of the pngread.c and pngrutil.c were used and any patches wo
 Because my first project had newer versions of pngread.c and pngrutil.c than the patches did, I could not add the patches to them. Therefore, 
 there are no pull requests for this project. My second project's pngread.c and pngrutil.c were much older than the patches' versions; therefore, I 
 could not create patches for this project either. There is no pull request for this project either. 
+
+------------------
+
+# Sprint 6
+
+Because I could not create patches or pull requests for either of my projects, I did not receive any responses from the contributors to the projects. 
