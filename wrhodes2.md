@@ -34,3 +34,7 @@ I prepared a patch for the GiantVM/QEMU repo here: https://github.com/Retroville
 
 I decided not to patch JleMyP/game_of_life-cpp. See the above edit under sprint 3.
 
+# Sprint 5
+
+Here's a link to the QEMU PR: https://github.com/GiantVM/QEMU/pull/3
+
