@@ -39,3 +39,11 @@ I fixed the vulnerability for both projects in exactly the same way: I updated p
 https://github.com/sam-baumann/Tempest
 
 https://github.com/sam-baumann/DISTRHO-Ports
+
+## Sprint 5
+
+Here are my pull requests
+
+https://github.com/Try/Tempest/pull/22
+
+https://github.com/DISTRHO/DISTRHO-Ports/pull/92
