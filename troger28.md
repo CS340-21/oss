@@ -35,3 +35,11 @@ It looks as though the vulnerability we have reviewed in libpng is not present i
 
 ### Instance 1391: rognar/webkit-wince-5-6-7-2013-mobile-
 Since the version of libpng in this project is significantly older and different than the one seen with this vulnerability, patching it is not realistic. First, we are not sure if the vulnerability existed in this past version. If the vulnerability is present, a justifiable solution would be to update the project to include the most recent libpng files. This would require extensive testing as simply modifying those files may not compile with the older code currently used. For this reason, producing a patch in this project is not realistic for this sprint task.
+
+# Sprint 5
+
+### Instance 611: catmasteryip/kivy_glucosec
+This project's libpng is up to date, so no patch is necessary. Thus, I did not create a pull request on this project.
+
+### Instance 1391: rognar/webkit-wince-5-6-7-2013-mobile-
+This project currently includes a much older version of libpng than the one corresponding to the vulnerability of interest. Instead of producing a patch that would likely cause more problems than it would fix, I created an [issue](https://github.com/rognar/webkit-wince-5-6-7-2013-mobile-/issues/1) suggesting that the libpng files are updated to reflect the most recent release.
