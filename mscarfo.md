@@ -9,4 +9,13 @@ Sprint 4: My forked repositories which fix the vulnerabilities:
 https://github.com/mscarfo/qemu
 https://github.com/mscarfo/libpng
 
+Sprint 5:
+Pull request for instance 120: https://github.com/glennrp/libpng/pull/374
+
+Pull request for instance 13: https://github.com/qemu/qemu/pull/116
+
+Sprint 6: For instance 120, there are 28 active pull requests dating back to 2020. I do not believe this project is accepting any new contributors.
+
+For instance 13, my pull request was instantly denied and I did not receive any updates from the owner of the repository.
+
 
