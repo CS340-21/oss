@@ -45,3 +45,11 @@ https://github.com/CBrooks36/libgender_age_model.so/blob/ae7492f5df33e94fdddcb28
 ### Instance 4
 Added vulnerability fix for http_auth.c.
 https://github.com/CBrooks36/lighttpd-1.4.20/blob/1886dbbedc12e3b5a385f1387c306f16e80f1730/src/http_auth.c#L93
+
+# Sprint 5
+
+### Instance 921
+https://github.com/DevinWang23/libgender_age_model.so/pull/2
+
+### Instance 4
+https://github.com/cyberknight01/lighttpd-1.4.20/pull/1
