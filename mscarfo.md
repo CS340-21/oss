@@ -10,9 +10,9 @@ https://github.com/mscarfo/qemu
 https://github.com/mscarfo/libpng
 
 Sprint 5:
-Pull request for instance 120: https://github.com/glennrp/libpng/pull/374
+Pull request for instance 120: https://github.com/glennrp/libpng/pull/375
 
-Pull request for instance 13: https://github.com/qemu/qemu/pull/116
+Pull request for instance 13: https://github.com/qemu/qemu/pull/117
 
 Sprint 6: For instance 120, there are 28 active pull requests dating back to 2020. I do not believe this project is accepting any new contributors.
 
