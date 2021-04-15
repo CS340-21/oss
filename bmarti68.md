@@ -75,3 +75,12 @@ Fix I applied: https://github.com/qemu/qemu/commit/b1d80d12c5f7ff081bb80ab4f4241
 
 https://github.com/braymar/afl/blob/master/qemu_mode/qemu-2.10.0/hw/net/pcnet.c
 
+# Sprint 5
+
+## libpng (instance398)
+
+https://github.com/TheTechnobear/SSP/pull/1
+
+## qemu (instance 6)
+
+https://github.com/CAFA1/afl/pull/1
