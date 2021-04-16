@@ -10,3 +10,8 @@ Instance #1444: Similarly, the lines in the specified files don't contain the fi
 Sprint 4:
 Instance #1117: Looking at the version of the directory containing pngread.c, the version is newer than the vulnerability patch.
 Instance #1444: Looking at the version of pngread.c, the version is newer than the vulnerability patch.
+
+Sprint 5:
+Instance #1117: Looking at the version of the directory containing pngread.c, the version is newer than the vulnerability patch.
+Instance #1444: Looking at the version of pngread.c, the version is newer than the vulnerability patch.
+
