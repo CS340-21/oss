@@ -9,7 +9,7 @@ The criteria I will use for determining whether they are accepting contributions
 ## Sprint 3
 The method to determining whether the vulnerability still exists is by checking the commit that fixes the vulnerability, and comparing the code in that commit to the code in the potentially vulnerable project. If the project is missing the code, the vulnerability still exists.
 
-# beaumanvienna / marley (Instance 552)
+# beaumanvienna / marley (Instance 552) [VULNERABILITY ALREADY FIXED]
 
 ## Sprint 1
 This project appears to be active. The last commit was 17 hours ago, meaning the developer has contributed very recently. Just in the current month, there has been 29 commits. However, this project appears to be mostly the work of one person. There are 3 listed contributors, of the 3, 2 of them have no more than 3 commits while one of them has over 600. Several open issues have been opened on the project, and a sizeable amount of discussion has occured on most of them. However, no milestones exist. There is also one pull request. Therefore, I can conclude that this is an active project.
@@ -34,6 +34,9 @@ Cross-referencing the libpng/pngread.c file from libpng to oneEngine/oneGame/sou
 ## Sprint 4
 Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c in the 1Engine project. No issues were found.
 
+## Sprint 5
+A pull request has been successfully created, and it can be found at [this link](https://github.com/skarik/1Engine/pull/2).
+
 # wheybags / freeablo (Instance 204)
 
 ## Sprint 1
@@ -47,3 +50,6 @@ Cross-referencing the libpng/pngread.c file from libpng to extern/libpng/pngprea
 
 ## Sprint 4
 Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c in the freeablo project. No issues were found.
+
+## Sprint 5
+A pull request has been successfully created, and it can be found at [this link](https://github.com/wheybags/freeablo/pull/504).
