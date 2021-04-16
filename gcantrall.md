@@ -20,3 +20,11 @@ This Projects potential vulnerability was rooted in an old version of lidpng. Th
 Instance 860 
 
 This project had the same potential vulnerability however it is using 1.6.35 so the valnerability appears to have been fixed. 
+
+Sprint 4
+
+Neither Project had the vulnerability remaining in them, and were no longer active so It did not seem reasonable to product a patch. 
+
+Sprint 5
+ 
+ As previously mentioned, no patch was created as both projects appeared to have already fixed they're vulnerability. 
