@@ -29,3 +29,9 @@ Neither of the two files have the necessary updated code to fix the vulnerabilit
 xiangshouding/gyp  
 File locations: gyp/third-party/libpng/pngpread.c and pngrutil.c 
 Neither of the two files have the necessary updated code to fix the vulnerability. 
+
+
+Milestone 4 and 5:  
+RafaleSoft/Raptor: https://github.com/RafaleSoft/Raptor/pull/12
+
+xiangshouding/gyp: https://github.com/xiangshouding/gyp/pull/6
