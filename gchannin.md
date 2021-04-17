@@ -34,4 +34,6 @@ Sprint 5:
 Link to the pull request here: https://github.com/MokshChoudhary/Drishti/pull/2
 The only pull request made was the one talked about with issue 118. While it would have been nice to be able to update the other code, it likely wouldn't have been possible without creating possible errors.
 
-                                           
+Sprint 6:
+Super exciting!  My pull request was accepted and merged!
+                                        
