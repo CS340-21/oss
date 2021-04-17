@@ -17,7 +17,10 @@ Given the above criteria-- my projects are not accepting contributions.
 Sprint 3: 
 
 1. Issue 118: https://github.com/Amriaa/Blink-and-Sink-Frontend
-This repository's pngpread.c file and pngrutil.c file do not seem to have locations tagged with vulnerability fix commits. It follows that the vulnerabilities still existed and the files should be updated.  I checked the files that are still in the repo and the associated commits.
+This repositories pngpread.c file has a large number of changes.  I am afraid to change it because I am concerned I might create a cascade of errors.  Similarly, this repositories pngrutil.c file has a large number of changes, too many for me to deal with at once.
 
 2. Issue 966: https://github.com/MokshChoudhary/Drishti
-Likewise, this repository's pngpread.c file and pngrutil.c file also do not seem to have locations tagged with vulnerability fix commits. It follows that the vulnerabilities still existed and the files should be updated.  I checked the files that are still in the repo and the associated commits.
+This repositories pngpread.c file has only one change.  The change is an approximately 20 line change.  This repositories pngrutil.c file has a large number of changes, so I decided not to tackle all the issues.
+
+Sprint 4:
+                                           
