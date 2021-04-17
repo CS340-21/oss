@@ -14,7 +14,15 @@ MokshChoudhary/Drishti has one contributor, no issues, and no pull requests.  Th
 
 Given the above criteria-- my projects are not accepting contributions.
 
-Sprint 3: 
+Sprint 3:
+
+1. Issue 118: https://github.com/Amriaa/Blink-and-Sink-Frontend
+This repositories pngpread.c and pngrutil.c file have a large number of changes. I believe that the bug has been fixed. 
+
+2. Issue 966: https://github.com/MokshChoudhary/Drishti
+This repositories files haven't been changed too too significantly, especially as it relates to the particular error, so I am lead to believe that the vulnerabilities still exist.
+
+Sprint 4: 
 
 1. Issue 118: https://github.com/Amriaa/Blink-and-Sink-Frontend
 This repositories pngpread.c file has a large number of changes.  I am afraid to change it because I am concerned I might create a cascade of errors.  Similarly, this repositories pngrutil.c file has a large number of changes, too many for me to deal with at once.
@@ -22,7 +30,8 @@ This repositories pngpread.c file has a large number of changes.  I am afraid to
 2. Issue 966: https://github.com/MokshChoudhary/Drishti
 This repositories pngpread.c file has only one change.  The change is an approximately 20 line change.  This repositories pngrutil.c file has a large number of changes, so I decided not to tackle all the issues.
 
-Sprint 4:
-
+Sprint 5:
+Link to the pull request here: https://github.com/MokshChoudhary/Drishti/pull/2
+The only pull request made was the one talked about with issue 118. While it would have been nice to be able to update the other code, it likely wouldn't have been possible without creating possible errors.
 
                                            
