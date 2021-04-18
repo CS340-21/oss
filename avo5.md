@@ -12,7 +12,7 @@ The project does appear to be active. There are 1,124 participants, with 36 comm
 
 The criteria I used to determine if the projects still accept contributions are commit history, the amount of contributors, and checked if there are any files that specify contribution requirements. 
 
-## libpng(Instance 953)
+## libpng (Instance 953)
 The project does appear to still accept contributions. According to the recent commit history, there were 3 different contributors in the past two weeks who help find bugs in the code. I could not find any files that specify if they accept contributions, however, according to the history of the 3 contributors, they are relatively new accounts that were able to contribute.
 
 ## QEMU (Instance 14)
@@ -22,7 +22,7 @@ The project does appear to still accept contributions. However, according to the
 
 In order to determine if the vulnerability still exists, I checked how the vulnerability was fixed and look to see if the code is included in my instances. If they were included, I checked to see if the vulnerability was completely solved by looking in the issues/pull requests.
 
-## libpng(Instance 953)
+## libpng (Instance 953)
 The vulnerability still exists. The code to fix the vulnerability is not included in either files. Furthermore, the vulnerability fix was committed on August 2017, while my instance files' last commits were on February 2017. 
 
 ## QEMU (Instance 14)
@@ -30,7 +30,7 @@ The vulnerability still exists. The vulnerability fix was to change one of the i
 
 # Sprint 4
 
-## libpng(Instance 953)
+## libpng (Instance 953)
 https://github.com/andyv0110/ebf_stm32f407_batianhu_emwin_demo/commit/ce909b92d61dcf743c11dd7ce637f13f2b6eca5d#diff-57330f18460785950d74b70aecd054bb5cafac3e3283cefddbd70b098f2eb7fb
 
 https://github.com/andyv0110/ebf_stm32f407_batianhu_emwin_demo/commit/70e13c6404a29e12c489e6065f372b21d86c62e8#diff-a115a1321e5868ddb213fdbf08dc0f669c0e0cb908e616a9de0289f1e6d0e1b3
@@ -39,3 +39,11 @@ https://github.com/andyv0110/ebf_stm32f407_batianhu_emwin_demo/commit/70e13c6404
 https://github.com/andyv0110/FreertosMultiUART/commit/176d0158c109419a03d3332919a30f43669f060a#diff-c63aceca62c504788add4e0228269afa4dc42db0e6f4a48d20b5cec915afa44b
 
 While there were not any outstanding issues when producing the patches, I will note that the code in libpng(Instance 953) is significantly outdated, meaning the patch may not be utilized. 
+
+# Sprint 5
+
+## libpng (Instance 953)
+https://github.com/Embedfire-emwin/ebf_stm32f407_batianhu_emwin_demo/pull/2
+
+## QEMU (Instance 14)
+https://github.com/secyourdev/FreertosMultiUART/pull/2
