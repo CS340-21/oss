@@ -25,3 +25,7 @@ For both instances, I forked both repositories onto my account and added the vul
 ## Sprint 5
 The pull request for Instance 319 can be found [here](https://github.com/gkosmadakis/manageXPence/pull/3), and the pull request for Instance 320 can be found [here]( https://github.com/f3db43f4g443/SimpleSample11/pull/1).
 
+## Sprint 6
+For both Instance 319 and 320, there have been no responses to the pull requests I created. There have not been any comments/questions or changes to the project. I will continue to check on the status of my pull requests and update if/when necessary.
+
+
