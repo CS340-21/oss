@@ -38,3 +38,8 @@ For both instances, I simply forked the project to my own account and added the 
 Create PRs from these patches; note the links to these PRs.
 
 The pull request for instance 183 can be found [here](https://github.com/FreeSouth/3ryparty/pull/1), and the pull request for instance 422 can be found [here](https://github.com/SeanRog/SER401-FALL-19-Project35/pull/199).
+
+## Sprint 6
+Respond to any questions needed to get patch accepted, like run tests, give evidence that exploit is still possible without a patch, etc. Please note if the responses were needed.
+
+As of now, neither project has responded to my pull requests, nor has anything been changed with the instances.
