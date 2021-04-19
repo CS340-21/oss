@@ -43,3 +43,12 @@ This project's libpng is up to date, so no patch is necessary. Thus, I did not c
 
 ### Instance 1391: rognar/webkit-wince-5-6-7-2013-mobile-
 This project currently includes a much older version of libpng than the one corresponding to the vulnerability of interest. Instead of producing a patch that would likely cause more problems than it would fix, I created an [issue](https://github.com/rognar/webkit-wince-5-6-7-2013-mobile-/issues/1) suggesting that the libpng files are updated to reflect the most recent release.
+
+# Sprint 6
+
+### Instance 611: catmasteryip/kivy_glucosec
+Not applicable, since no patch was necessary and I did not submit a pull request.
+
+### Instance 1391: rognar/webkit-wince-5-6-7-2013-mobile-
+There is no response to the issue I created - there are neither comments/questions, nor have there been changes to the project. I will continue to check on this and provide an update if necessary.
+
