@@ -32,6 +32,9 @@ Instance 41: HeyColton/PosterPro's pngpread hasn't been changed significantly, s
 
 Sprint 5: 
 
-Link to pull request for the single patch I did here: \href{https://github.com/HeyColton/PosterPro/pull/1}{Pull Request}. (Instance 41)
+Link to pull request for the single patch I did here: \href{https://github.com/HeyColton/PosterPro/pull/1#issue-611152511}{Pull Request}. (Instance 41)
 
+Sprint 6:
+
+Given that there has been no response to my pull request in any way, I don't know what documentation could/should be provided. I imagine that the request hasn't been seen as this is an old university project. My instinct is to let it sit.
 \end{document}
