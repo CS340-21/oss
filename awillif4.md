@@ -11,6 +11,11 @@ This project does not seem to be accepting contributions, based on the fact that
 # SP 3
 I conpared the files from the fix commit in libpng to the files in this project. This project contains 22 identical sets of files pngpread.c and pngrutil.c, but the files are very different from the libpng's files. Given how different these files are I am unable to determine if the vulnerability still exists.
 
+# SP 4 and 5
+I could not determine if the vulnerability existed in the code, but the project seemed to use an old version of libpng so I opened an issue explaining the possible vulnerability.
+- Issue: (https://github.com/Embedfire-emwin/ebf_stm32f407_batianhu_emwin_demo/issues/1)
+
+
 ### Progression Project (Instance 4)
 # SP 1
 This project is a C++ game engine for Linux and Windows. I determined that this project was still in active developement based on the very recent commit history, but the one contributor does not utilize PR's, issues, or releases.
@@ -20,3 +25,11 @@ This project also does not seem to be accepting contributions, with only one con
 
 # SP 3
 I conpared the files from the fix commit in LZ4 to the files in this project to determine that the vulnerability still exists in Progression.
+
+# SP 4
+I learned that this project was alos assigned to another student (Joey Lemon), and he has already opened a issue and provided a patch and PR.
+- Issue: (https://github.com/LiamTyler/Progression/issues/1)
+- Patch: (https://github.com/LiamTyler/Progression/pull/2/files)
+
+# SP 5
+Joey's PR: (https://github.com/LiamTyler/Progression/issues/1)
