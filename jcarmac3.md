@@ -32,5 +32,9 @@ and the rest of the files wopuld require extensive changes to patch.
 # Sprint 5
 
 Created this [pull request](https://github.com/upreverie/Attendance_via_face_Recognition/pull/2)
+
+# Sprint 6
+
+No response from repo owner. Assuming no tests needed.
     
     
