@@ -58,3 +58,19 @@ Below are the links for the pull requests made for the patched vulnerabilities.
 
 Pull request for sboost project: https://github.com/lucmichalski/sboost/pull/1 
 Pull request for dolphin project: https://github.com/EIGHTFINITE/dolphin/pull/1 
+
+
+Sprint 6:
+
+EIGHTFINITE/dolphin (Instance 11)
+
+In response to the pull request for this repo, I got an email stating that this repo is a fork of their main project and that I should probably submit a pull request to their main project. The repo was linked in the email they sent me. I then used this link to get to the new repo. I went to the file, pngpread.c, that contained the vulnerability and checked to see if it still had the vulnerability. I still had it so I forked the repo they linked in the email and fixed the vulnerability for this repo and then sent a new pull request. 
+
+Link to new repo sent to me in email: https://github.com/dolphin-emu/dolphin 
+New pull request to pngpread.c in new repo: https://github.com/dolphin-emu/dolphin/pull/9639 
+
+I was then contacted via email explaining that this change was not necessary because the vulnerability is addressed in another file within libpng. This change was made within a new version of libpng that this repo uses that was released after this vulnerability was found and fixed. The change I made via the pull request is not necessary for their project. In conclusion, my pull request for this project was not accepted.   
+
+Lucmichalski/sboost (Instance 1)
+
+I have not received any response from the contributors/creators of this project in response to my pull request.
