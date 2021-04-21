@@ -49,3 +49,7 @@ My pull request for this fix can be found [here](https://github.com/aswinkumarpm
 ### ImageViewer
 
 My pull request for this fix can be found [here](https://github.com/AlienCowEatCake/ImageViewer/pull/1).
+
+## Sprint 6
+
+Neither of the repository owners have commented on my pull requests.
