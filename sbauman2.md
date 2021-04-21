@@ -47,3 +47,15 @@ Here are my pull requests
 https://github.com/Try/Tempest/pull/22
 
 https://github.com/DISTRHO/DISTRHO-Ports/pull/92
+
+## Sprint 6
+
+Neither of my PRs were accepted, the feedback is as follows
+
+### Try/Tempest
+
+In Try/Tempest, the maintainer of the repo was thankful for my PR and opted to do a full upgrade of the libpng library as opposed to patching the single file, so the vulnerability was still fixed in this case.
+
+### DISTRHO/DISTRHO-Ports
+
+In this repo, the maintainer explained that libpng was only used because it was part of another library used in that project, but their project does not use any libpng features so the vulnerability is not a problem for them.
