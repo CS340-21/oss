@@ -18,3 +18,7 @@ pngpread.c: https://github.com/GaryAF/OOP_indie_studip/pull/1/commits/257194536e
 pngrutil.c: https://github.com/GaryAF/OOP_indie_studip/pull/1/commits/b0e1a02201ba48420b897483800e1fff0612b3b2
 
 When looking at ebf_stm32f407_batianhu_emwin_demo and considering comments mentioned in class, the circumstances surrounding the pngpread.c and pngrutil.c files looking completely different than expected were rexamined. Upon further observation, it can be discoved that the version of libpng that is used in this repository is from 2006. Since the changes in the library would be significant and would cause issues of dependancy, it is not reasonable to suggest changes for this repository.
+
+
+### Sprint 6:
+No follow up has been requested from the submitted patches. The patches have neither been accepted nor rejected.
