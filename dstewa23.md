@@ -59,3 +59,10 @@ There is no pull request to be made for this instance. See previous sprints abov
 
 ### (Instance 15)
 Link to the pull request that fixes the vulnerability - https://github.com/patchguard/qemu_sgx/pull/1
+
+# Sprint 6
+### (Instance 1182)
+There was no pull request made for this instance. See previous sprints above.
+
+### (Instance 15)
+No questions or responses were made as a result of my pull request. The pull request is still open. It has not been accepted nor rejected.
