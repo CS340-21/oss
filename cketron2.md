@@ -49,3 +49,9 @@ I made a pull request to merge my fork of each project (containing the vulnerabi
 The pull requests are linked below.
 * [Qt5 - pull request](https://github.com/cproc/qt5/pull/9)
 * [Universal Tools - pull request](https://github.com/utechnique/universal_tools/pull/1)
+
+## Sprint 6 - Answer any questions regarding changes made in PR's from sprint 5
+
+The [Universal Tools pull request](https://github.com/utechnique/universal_tools/pull/1) was merged to the master branch with no questions or issues.
+I have not heard anything regarding the [Qt5 pull request](https://github.com/cproc/qt5/pull/9), and I do not expect to as this project does not seem
+to be actively managed by contributors.
