@@ -17,3 +17,7 @@ SPRINT 4
 
 https://github.com/BradenButler/simutrans/blob/master/libs/lpng1637/pngpread.c
 this is a link to the patched file "pngpread.c" in simutrans. The issue in the other file "pngrutil.c" seems to have been patched already.
+SPRINT 5
+
+Pull request made:
+https://github.com/Andarix/simutrans/pull/1
