@@ -37,5 +37,5 @@ RafaleSoft/Raptor: https://github.com/RafaleSoft/Raptor/pull/12
 xiangshouding/gyp: https://github.com/xiangshouding/gyp/pull/6
 
 
-Milestone 6:
+Milestone 6:  
 Neither one of the repositories have accepted the merge, but I do not believe they will since they have both been inactive for some time. I provided links explaining the exploit, as well as a link to the commit that fixed the exploit in the libpng library for both pull requests. 
