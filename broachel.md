@@ -28,3 +28,6 @@ I produced a patch for the project that still contained the vulnerability, wePRO
 
 # Sprint 5
 I submitted a pull request to QK-Lite/wePRO, as seen [here](https://github.com/QK-Lite/wePRO/pull/1).
+
+# Sprint 6
+I got no activity regarding my pull request, so I did not need to make any additional responses.
