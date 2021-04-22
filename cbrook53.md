@@ -53,3 +53,7 @@ https://github.com/DevinWang23/libgender_age_model.so/pull/2
 
 ### Instance 4
 https://github.com/cyberknight01/lighttpd-1.4.20/pull/1
+
+# Sprint 6
+
+Neither of the repo managers have responded with questions or accepted/rejected my pull requests.
