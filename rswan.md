@@ -48,3 +48,8 @@ https://github.com/ECS-251-W2020/chromium/pull/5
 QEMU (Instance 1)
 https://github.com/ssdemajia/qemu-2.10.0/pull/1
 
+SPRINT 6:
+
+Neither pull request has had any activity so there is nothing to report on.
+
+
