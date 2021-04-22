@@ -17,3 +17,6 @@ The first project utilizes pngpread.c from Libpng, which was changed in the vuln
 
 Sprint 5
 The links to the pull requests are here: https://github.com/SeanRog/SER401-FALL-19-Project35/pull/200 https://github.com/xiang-lab/op-tee/pull/1
+
+Sprint 6
+Neither of my pull requests have been responded to (or likely even viewed at all) by the original creator of the code, so no further testing has been done at the current moment.
