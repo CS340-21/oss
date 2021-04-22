@@ -84,3 +84,13 @@ https://github.com/TheTechnobear/SSP/pull/1
 ## qemu (instance 6)
 
 https://github.com/CAFA1/afl/pull/1
+
+# Sprint 6
+
+## libpng (instance398)
+
+The pull request was closed because the repo owner has the correct patched code in an upstream repo that they will be merging with this one soon, thus the vulnerability I patched will fixed automatically once they merge them.
+
+## qemu (instance 6)
+
+There has been no response or questions on my pull request, the pull request is still open in their repository, thus there was nothing for me to respond to or test.
