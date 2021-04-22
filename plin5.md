@@ -25,3 +25,12 @@ No vulnerabilities were found.
 ## Project 4: vtf-xen
 This project once contained a shared variable that was problematic. It was removed, so the vulnerability is gone. 
 Upon reviewing the various patch files, no other vulnerabilities seem to be present. 
+
+# Sprint 4
+Since no vulnerabilities were found for both projects, there is no reason to create a patch. 
+
+# Sprint 5
+Since no patches were required, no pull requests were necessary. 
+
+# Sprint 6
+Due to inactivity of both projects, the lack of vulnerabilities, and pull requests, no questions were asked. 
