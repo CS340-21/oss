@@ -47,3 +47,15 @@ Because the vulnerability does not exist any longer, no patch was applied, so th
 
 ## Instance 869:   slowrunner/Carl 
 As stated above, this project no longer even has libpng in its directories, so there was no pull request for this project, because no patch was needed
+
+
+## Instance 869:   slowrunner/Carl 
+As stated in the previous sprint, this project does not use libpng any longer. Therefore, it is also not reasonable to commit a patch to this project, either.
+
+# Sprint 6
+
+## Instance 1101:   Ultraschall/ultraschall-soundboard
+As stated in the last sprint, there was no need for a pull request, since this project already had the most up-to-date libpng files, so there were no responses to any pull requests, or notes to give. 
+
+## Instance 869:   slowrunner/Carl 
+As state in the last sprint, there was no need for a pull request, since the project no longer uses libpng at all, so there are no questions or notes to show.
