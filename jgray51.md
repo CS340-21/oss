@@ -21,6 +21,8 @@
 ## (Sprint 5) Here is the link to the pull requests I made for the patches I added.
 [Pull Resuests](https://github.com/oben01/CxImage/pull/1)
 
+## (Sprint 6) The owner of this project accepted my pull request, no questions asked.
+
 # Face Decetion with different Image enhancments (FDdIE)
 ## (Sprint 1) Not Active
   ### Number of participants:
@@ -43,3 +45,5 @@
 
 ## (Sprint 5) Here is the link to the pull requests I made for the patches I added.
 [Pull Resuests](https://github.com/AmitHasanShuvo/Face-Detection-with-Image-Enchantments/pull/2)
+
+## (Sprint 6) The owner of this project has not responded to my pull request.
