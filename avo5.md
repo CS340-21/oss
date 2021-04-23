@@ -49,6 +49,6 @@ https://github.com/Embedfire-emwin/ebf_stm32f407_batianhu_emwin_demo/pull/2
 https://github.com/secyourdev/FreertosMultiUART/pull/2
 
 # Sprint 6
-After waiting for 11 days for questions for both pull requests, both authors did not respond to either posts. As such, I was not capable of providing responses to the author's questions. 
+After waiting for 11 days for questions for both pull requests, both authors did not respond to either posts. As such, I was not capable of providing responses to the author's questions, and I have closed both pull requests. 
 
 
