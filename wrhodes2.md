@@ -39,3 +39,6 @@ I decided not to patch JleMyP/game_of_life-cpp. See the above edit under sprint 
 Here's a link to the QEMU PR: 
 https://github.com/GiantVM/QEMU/pull/3
 
+# Sprint 6
+
+There is no update on the status of the pull requests as of today (4/22/21)
