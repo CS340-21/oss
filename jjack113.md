@@ -60,3 +60,33 @@ in a comment the edits I made, as well as linked the commit that fixed the vulne
 Here is a link to my pull request: 
 
 https://github.com/CdTCzech/Qt5/pull/14
+
+# Sprint 6: 
+
+### opencv (instance 1337)
+I received a response from an administrator on my pull request for this project and it turns out the I misinterpreted the code and there is no vulnerability, meaning a patch was not necessary. The following was the response from Alexander Alekhin: 
+
+"These patches are against 1.6.31+
+Current code is based on libpng 1.6.37
+
+Refer to the content of the latest libpng release: https://github.com/glennrp/libpng/tree/v1.6.37
+There are no such workarounds anymore, probably they are mitigated through different ways."
+
+He then closed the pull request. 
+
+This is the citeria for a good pul request as specified by the opencv admins: 
+
+"Pull Request Readiness Checklist
+See details at https://github.com/opencv/opencv/wiki/How_to_contribute#making-a-good-pull-request
+
+ I agree to contribute to the project under Apache 2 License.
+ To the best of my knowledge, the proposed patch is not based on a code under GPL or other license that is incompatible with OpenCV
+ The PR is proposed to proper branch
+ There is reference to original bug report and related work
+ There is accuracy test, performance test and test data in opencv_extra repository, if applicable Patch to opencv_extra has the same branch name.
+ The feature is well documented and sample code can be built with the project CMake"
+ 
+### Qt5 (instance 1319)
+I did not receive a response on this project, so it is likely not an active project after all. Nevertheless, I realized that I made the same mistake 
+as I did in the opencv project and a patch was not necessary. I commented "I made a mistake and no patch is necessary. My apologies." and then closed the 
+pull request. 
