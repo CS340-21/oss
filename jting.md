@@ -37,6 +37,9 @@ Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c
 ## Sprint 5
 A pull request has been successfully created, and it can be found at [this link](https://github.com/skarik/1Engine/pull/2).
 
+## Sprint 6
+The pull request was accepted and successfully merged into the project.
+
 # wheybags / freeablo (Instance 204)
 
 ## Sprint 1
@@ -53,3 +56,6 @@ Patches have been created, fixing the vulnerability in pngpread.c and pngrutil.c
 
 ## Sprint 5
 A pull request has been successfully created, and it can be found at [this link](https://github.com/wheybags/freeablo/pull/504).
+
+## Sprint 6
+The pull request is still open. The branch has no conflicts with the base branch, however, the AppVeyor build failed despite the commit completely matching the commit in the original libpng project. No comments have been given by the maintainers, and it is unlikely that any will be given due to the project's relative inactivity.
