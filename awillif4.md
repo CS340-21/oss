@@ -15,6 +15,9 @@ I conpared the files from the fix commit in libpng to the files in this project.
 I could not determine if the vulnerability existed in the code, but the project seemed to use an old version of libpng so I opened an issue explaining the possible vulnerability.
 - Issue: (https://github.com/Embedfire-emwin/ebf_stm32f407_batianhu_emwin_demo/issues/1)
 
+# SP 6
+There have been no responses to the issue that I opened. I do see that another student has attempted to fix the vulnerability in one of the 22 occurrences, so I linked my issue to the [PR](https://github.com/Embedfire-emwin/ebf_stm32f407_batianhu_emwin_demo/pull/2). I cannot confirm whether the student's PR corrects the vulnerability.
+
 
 ### Progression Project (Instance 4)
 # SP 1
@@ -33,3 +36,6 @@ I learned that this project was alos assigned to another student (Joey Lemon), a
 
 # SP 5
 Joey's PR: (https://github.com/LiamTyler/Progression/issues/1)
+
+# SP 6
+There have been no responses on Joey's PR which is still waiting for review.
