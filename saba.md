@@ -58,3 +58,11 @@ the vulnerability with no errors.
 Create a pull request [here](https://github.com/mis9ter/orange/pull/1).
 ### Unbiased Weight Mean Filter (Instance 1257)
 Created a pull request [here](https://github.com/cengizkandemir/uwmf/pull/1).
+
+## Sprint 6
+Neither pull request was accepted.
+
+### Orange (Instance 1016)
+I recieved no response from this repo.
+### Unbiased Weight Mean Filter (Instance 1257)
+I was asked to link him the information regarding the vulnerability, which I did. I have heard nothing since. 
