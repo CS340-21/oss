@@ -35,3 +35,7 @@ No issues patching either code.
 https://github.com/khaledabdrabo98/ProjetKF/pull/1
 
 https://github.com/ljrk0/DIR882A1-GPL/pull/2
+
+# **Sprint 6**
+
+No response has been recieved.
