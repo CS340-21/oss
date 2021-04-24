@@ -46,3 +46,12 @@ JKolodziejczak/povray-polar - https://github.com/JKolodziejczak/povray-polar/pul
 gdregalo/browser-android-tabs - https://github.com/gdregalo/browser-android-tabs/pull/1
 
 There were no issues in completing this assignment to note.
+
+# Sprint 6
+
+For both instances, I had to check if the changes I made to pngrutil.c and pngprutil.c files were accepted, or commented on by any the owner(s) of the original files. For all of my instances, no one has responded to any of my pull requests. The links to see the comparisons with the lack of commentary from my commits are in the inks below:
+
+JKolodziejczak/povray-polar - https://github.com/JKolodziejczak/povray-polar/compare/master...Comwiz180:master
+gdregalo/browser-android-tabs - https://github.com/Comwiz180/browser-android-tabs
+
+There were no issues in completing this assignment to note.
