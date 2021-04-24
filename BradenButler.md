@@ -22,3 +22,7 @@ SPRINT 5
 
 Pull request made:
 https://github.com/Andarix/simutrans/pull/1
+
+SPRINT 6
+
+No questions or response yet received.
