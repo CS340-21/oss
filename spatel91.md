@@ -59,3 +59,7 @@ files:
 libpng: [https://github.com/MerlinRdev/bluecave-merlin/pull/22](https://github.com/MerlinRdev/bluecave-merlin/pull/22)
 
 QEMU: [https://github.com/strongcourage/uafuzz/pull/2](https://github.com/strongcourage/uafuzz/pull/2)
+
+# **Sprint 6**
+
+No response has been recieved.
