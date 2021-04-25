@@ -53,3 +53,9 @@ files:
 [https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_uafuzz/qemu-2.10.0/hw/net/pcnet.c](https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_uafuzz/qemu-2.10.0/hw/net/pcnet.c)
 
 [https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_aflgob/qemu-2.10.0/hw/net/pcnet.c](https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_aflgob/qemu-2.10.0/hw/net/pcnet.c)
+
+# **Sprint 5**
+
+libpng: [https://github.com/MerlinRdev/bluecave-merlin/pull/22](https://github.com/MerlinRdev/bluecave-merlin/pull/22)
+
+QEMU: [https://github.com/strongcourage/uafuzz/pull/2](https://github.com/strongcourage/uafuzz/pull/2)
