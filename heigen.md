@@ -25,6 +25,19 @@ There are no pull requests or forks. I did see one issue asking about the licens
 
 In both cases, the files in question had been updated since the libpng commit. However, I was unable to find some code from that commit in either of the files. This prompted me to look at the libpng's pngpread.c file. The source file doesn't contain the code either, so I'm guessing they've subsequently changed things further. I am not sure how to check whether the vulnerabilty remains, however I would be surprised if it didn't, given that the projects seem up to date with the current libpng repo.
 
+# Sprint 4
+
+The links to my patches are below. I didn't have any issues.
+
+### Sauce3D (911)
+
+pngpread.c: https://github.com/bitsauce/Sauce3D/commit/668c58627e0e8b092004be91f917d5718ad238d1
+pngrutil.c: https://github.com/bitsauce/Sauce3D/commit/56c099b883b118b924d81a4478c2a429b437757f
+
+### aminga-utils (996)
+
+pngpread.c: https://github.com/skeetor/amiga-utils/commit/9554281fbe36f46a11a45d55317ede3cb18c3a1c
+pngrutil.c: https://github.com/skeetor/amiga-utils/commit/e9572ba75c9f70b22235ac2faaecce11b5ebf4c9
 
 
 
