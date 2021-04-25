@@ -13,8 +13,12 @@ Instance #1444: Looking at the version of pngread.c, the version is newer than t
 
 Sprint 5:
 Instance #1117: Looking at the version of the directory containing pngread.c, the version is newer than the vulnerability patch.
-Instance #1444: Looking at the version of pngread.c, the version is newer than the vulnerability patch.
+	As such, there weren't any vilnerabilities to fix.
+Instance #1444: Looking a the version of pngread.c, the version is newer than the vulnerability patch. As such, there were no
+	vulnerabilities to fix. 
 
 Sprint 6:
 Instance #1117: Looking at the version of the directory containing pngread.c, the version is newer than the vulnerability patch.
-Instance #1444: Looking at the version of pngread.c, the version is newer than the vulnerability patch.
+	As such, no feedback was given.
+Instance #1444: Looking at the version of pngread.c, the version is newer than the vulnerability patch. As such, no feedback
+	was given.
