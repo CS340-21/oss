@@ -31,3 +31,25 @@ The vulnerability that i identified was the code's inability to determine if a d
 QEMU - (Instance 8)
 
 This project has a buffer overflow bug due to an interger variable being cast as a size_t variable. This bug can be solved simply by changing the type of the variable in question to size_t. This bug exist in pcnet.c and has not been fixed yet on their repo.
+
+# **Sprint 4**
+
+libpng - (Instance 820)Q(Instance 1) Patch
+
+commit: [https://github.com/spatel912020/bluecave-merlin/commit/d3251b80a31da75a42eef4f8a640d00d7d1477e1](https://github.com/spatel912020/bluecave-merlin/commit/d3251b80a31da75a42eef4f8a640d00d7d1477e1)
+
+files:
+
+[https://github.com/spatel912020/bluecave-merlin/blob/d3251b80a31da75a42eef4f8a640d00d7d1477e1/release/src/router/APP-IPK/DM-ipk/wxbase/src/png/pngread.c](https://github.com/spatel912020/bluecave-merlin/blob/d3251b80a31da75a42eef4f8a640d00d7d1477e1/release/src/router/APP-IPK/DM-ipk/wxbase/src/png/pngread.c)
+
+[https://github.com/spatel912020/bluecave-merlin/blob/d3251b80a31da75a42eef4f8a640d00d7d1477e1/release/src/router/APP-IPK/DM-ipk/wxbase/src/png/pngrutil.c](https://github.com/spatel912020/bluecave-merlin/blob/d3251b80a31da75a42eef4f8a640d00d7d1477e1/release/src/router/APP-IPK/DM-ipk/wxbase/src/png/pngrutil.c)
+
+QEMU - (Instance 8)
+
+commit: [https://github.com/spatel912020/uafuzz/commit/d0eefd3c925aa3268acfafd976ce85422fd1299f](https://github.com/spatel912020/uafuzz/commit/d0eefd3c925aa3268acfafd976ce85422fd1299f)
+
+files:
+
+[https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_uafuzz/qemu-2.10.0/hw/net/pcnet.c](https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_uafuzz/qemu-2.10.0/hw/net/pcnet.c)
+
+[https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_aflgob/qemu-2.10.0/hw/net/pcnet.c](https://github.com/spatel912020/uafuzz/blob/d0eefd3c925aa3268acfafd976ce85422fd1299f/binsec/src/uafuzz/afl-2.52b/qemu_mode_aflgob/qemu-2.10.0/hw/net/pcnet.c)
