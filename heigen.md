@@ -35,7 +35,7 @@ pngpread.c: https://github.com/bitsauce/Sauce3D/commit/668c58627e0e8b092004be91f
 
 pngrutil.c: https://github.com/bitsauce/Sauce3D/commit/56c099b883b118b924d81a4478c2a429b437757f
 
-### aminga-utils (996)
+### amiga-utils (996)
 
 pngpread.c: https://github.com/skeetor/amiga-utils/commit/9554281fbe36f46a11a45d55317ede3cb18c3a1c
 
@@ -47,8 +47,18 @@ pngrutil.c: https://github.com/skeetor/amiga-utils/commit/e9572ba75c9f70b22235ac
 
 PR: https://github.com/bitsauce/Sauce3D/pull/6
 
-### aminga-utils (996)
+### amiga-utils (996)
 
 PR: https://github.com/skeetor/amiga-utils/pull/24
 
+# Sprint 6
 
+### Sauce3D (911) 
+
+No word yet from the Sauce3D author. This isn't surprising since he/she hasn't been active on github for almost 6 months.
+
+### amiga-utils (996)
+
+No response was needed. The author of amiga-utils merged my pull request with the master branch without any questions.
+
+PR: https://github.com/skeetor/amiga-utils/commit/5d22859a52b73483a0510f4830d2c60e88e9344b
