@@ -32,3 +32,7 @@ Instance 313 does not have the vulnerability because it no longer exists, but in
 # Sprint 4 & 5
 
 Instance 313 cannot be patched because it no longer exists, but the pull request to fix instance 243 is [here](https://github.com/ycwang812/SLAMCar/pull/1). I simply [forked the project](https://github.com/adam-mcdaniel/SLAMCar), implemented the change, pushed to my copy of the repository, and created a pull request to the upstream repo.
+
+# Sprint 6
+
+My patch has yet to receive any responses, so I cannot reply to any messages yet.
