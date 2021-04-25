@@ -41,5 +41,14 @@ pngpread.c: https://github.com/skeetor/amiga-utils/commit/9554281fbe36f46a11a45d
 
 pngrutil.c: https://github.com/skeetor/amiga-utils/commit/e9572ba75c9f70b22235ac2faaecce11b5ebf4c9
 
+# Sprint 5
+
+### Sauce3D (911)
+
+PR: https://github.com/bitsauce/Sauce3D/pull/6
+
+### aminga-utils (996)
+
+PR: https://github.com/skeetor/amiga-utils/pull/24
 
 
