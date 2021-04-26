@@ -29,3 +29,6 @@ Again, no patch would be necessary for this instance because it was a homework a
 
 Sprint 5:
 PR for instance 813 can be found here: https://github.com/dreamsdk/codeblocks/pull/1
+
+Sprint 6:
+I have not recieved any notifications regarding my patch so I have not had anything to respond to.
