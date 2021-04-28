@@ -38,4 +38,15 @@ Because this game is up to date, there are no vulnerabilities.
 As mentioned before, there's not really any vulnerabilities since it's just practice problems.
 
 # Sprint 5
+
+Make pull request or patch that fixes it. If impossible, open a new issue and suggest an update to a new version.
+
+### Instance 930 - Captain's Engine Game
+Link: https://github.com/captain-mayhem/captainsengine/pull/1
+
+### Instance 470 - OpenGI_miniProgram
+
+Not listed in repository, cannot update with issue.
+
 # Sprint 6
+No responses yet, will update if I do get one.
