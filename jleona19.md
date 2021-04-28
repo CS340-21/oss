@@ -46,7 +46,7 @@ Link: https://github.com/captain-mayhem/captainsengine/pull/1
 
 ### Instance 470 - OpenGI_miniProgram
 
-Not listed in repository, cannot update with issue.
+Link: https://github.com/shiyuyullin/OpenGl_miniProgram/pull/1
 
 # Sprint 6
 No responses yet, will update if I do get one.
