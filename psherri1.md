@@ -25,6 +25,9 @@ When determining the vulnerability of the project, I compared files across the l
 Project does not seem to be vulnerable. It is generating the Libpng file by using libraries in python.
 [Link](https://github.com/psherrill24/cross_platform_calc/blob/master/kivy-ios/recipes/libpng/__init__.py)
 
+## sprint 6
+No feedback given the repo is dead
+
 # LZwolf (Instance #282)
 
 ## Sprint 1
@@ -39,3 +42,6 @@ Same criteria was used as the previous project to determine if vulerability exis
 ## Sprint 4 & 5
 To produce a patch for each vulnerability, I forked the project and edited the files referenced in Sprint 3 above. I encountered no issues in doing this, I also requested a pull request for it. Link is posted below.
 [Link](https://github.com/madmodder123/lzwolf-sdl2/pull/1/files)
+
+# Sprin 6
+No feedback was given on the issue, repo inactive
