@@ -25,3 +25,16 @@ No current vulnerabilities exist. I checked the commit history and all vulnerabi
 ### Project 1442:
 
 My second assigned project has one potential vulnerability. I came to this conclusion because the last commit to the main branch was in February of 2015, and an issue was assigned by a fellow contributor on January of 2016. The issue is still open so a vulnerability may still exist. 
+
+# Sprint 4
+
+Fourth Sprint required us to produce patches for both projects. 
+
+### Project 712:
+
+Since this project is inactive, and no vulnerabilities were found, no patch was created.
+
+### Project 1442:
+
+Despite having a potential vulnerability, no patch was created because the issue still open (created on January 2016) required various files, which I do not have access to. 
+
