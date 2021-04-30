@@ -38,3 +38,14 @@ Since this project is inactive, and no vulnerabilities were found, no patch was 
 
 Despite having a potential vulnerability, no patch was created because the issue still open (created on January 2016) required various files, which I do not have access to. 
 
+# Sprint 5
+
+For the fifth Sprint, we were required to create pull requests for the patches in Sprint 4.
+
+### Project 712:
+
+No pull request created as the project had no patches.
+
+### Project 1442:
+
+No pull request created as the project had no patches.
