@@ -52,4 +52,4 @@ No pull request created as the project had no patches.
 
 # Sprint 6
 
-Due to the inactivty of both projects, and date of last commit and issue, no questions were needed to be asked.
+Due to the inactivity of both projects, and date of last commit and issue, no questions were needed to be asked.
