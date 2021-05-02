@@ -16,6 +16,9 @@ Since the vulnerability has been addressed in the 2019 version, there is no reas
 
 For this I was also assigned instance 364 - Totalcross/totalcross
 
+Sprint 6
+No need for PR since patch was there already
+
 Sprint 1
 This projects is still active, and there have been commits made withing the last 7 days. There are only 15 contributors but with 8 recent pull requests we can see that this project is indeed active. 
 
@@ -31,4 +34,6 @@ Forked the project and changed both of the files described above with the vulner
 https://github.com/amaryans/totalcross/blob/amaryans-patch-1-pngpread-vulnerability/TotalCrossVM/src/png/pngpread.c
 https://github.com/amaryans/totalcross/blob/amaryans-patch-2-chunk-length-vulnerability/TotalCrossVM/src/png/pngrutil.c
 
+Sprint 6
 
+Unable to get changes to repo merged because of PR criteria of the repo.
