@@ -48,7 +48,7 @@ No pull request created as the project had no patches.
 
 ### Project 1442:
 
-No pull request created as the project had no patches.
+No pull request created as the project had no patches. However, I contacted the project maintainers and let them know of the possible vulnerability. I created an issue on their page, which can be found [here.](https://github.com/xdtianyu/android-4.2_r1/issues/3)
 
 # Sprint 6
 
